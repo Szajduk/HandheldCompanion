@@ -1,0 +1,3028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Séma 
+    
+    Verzió 2.0
+    
+    Ennek a formátumnak a fő célja egy egyszerű XML formátum lehetővé tétele,
+    amely túlnyomórészt ember által olvasható. A különböző adattípusok generálása
+    és értelmezése a TypeConverter osztályokon keresztül történik,
+    amelyek a data típusokhoz kapcsolódnak.
+    
+    Példa:
+    
+    ... ado.net/XML fejlécek és séma ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Név1"><value>ez a hosszú szövegem</value><comment>ez egy megjegyzés</comment></data>
+    <data name="Szín1" type="System.Drawing.Color, System.Drawing">Kék</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime kódolással átkonvertált .NET Framework objektum]</value>
+    </data>
+    <data name="Ikon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime kódolással átkonvertált string, amely egy byte tömb alakját reprezentálja a .NET Framework objektumnak]</value>
+        <comment>Ez egy megjegyzés</comment>
+    </data>
+                
+    Tetszőleges számú "resheader" sor található, amelyek egyszerű
+    név/érték párokat tartalmaznak.
+    
+    Minden adatsor tartalmaz egy nevet és értéket. Az adatsor tartalmaz egy
+    típust vagy mimetype-ot is. A típus megfelel egy olyan .NET osztálynak,
+    amely támogatja a szöveg/érték konverziót a TypeConverter architektúrán keresztül.
+    Azok az osztályok, amelyek nem támogatják ezt, szerializálva lesznek és eltárolva
+    lesznek a beállított mimetype-tel.
+    
+    A mimetype-ot szerializált objektumokhoz használják, és megmondja a
+    ResXResourceReader-nek, hogyan kell a tárgyat visszaállítani. Jelenleg ez
+    nem bővíthető. Egy adott mimetype-hez a értéknek megfelelően kell beállítva lennie:
+    
+    Megjegyzés - az application/x-microsoft.net.object.binary.base64 a formátuma,
+    amelyet a ResXResourceWriter generál, azonban az olvasó bármelyik alábbi formátumot olvashat.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    érték   : Az objektumot szerializálni kell
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : és aztán base64 kódolással kell kódolni.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    érték   : Az objektumot szerializálni kell
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : és aztán base64 kódolással kell kódolni.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    érték   : Az objektumot egy byte tömbbé kell szerializálni
+            : egy System.ComponentModel.TypeConverter használatával
+            : és aztán base64 kódolással kell kódolni.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+<resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+</resheader>
+<resheader name="version">
+    <value>2.0</value>
+</resheader>
+<resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Verzió=4.0.0.0, Kultúra=semleges, NyilvánosKulcsToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Verzió=4.0.0.0, Kultúra=semleges, NyilvánosKulcsToken=b77a5c561934e089</value>
+</resheader>
+<data name="AboutPage_About" xml:space="preserve">
+    <value>Leírás</value>
+</data>
+<data name="AboutPage_AboutDescription" xml:space="preserve">
+    <value>Egy Windows szolgáltatás és érintőfelület-optimalizált GUI kombinációja a hordozható játékszámítógép élmény növelésére. Szolgáltatások közé tartozik: mozgásvezérlés, virtuális vezérlő szimuláció, gyors eszközök átfedése, virtuális érintőpadok, 3D vezérlő modell, alkalmazásonként alapuló profilbeállítások rendszere. A Handheld Companion a ViGEmBus illesztőprogramra és a ViGEmClient könyvtárakra, valamint a HidHide kernel-módú szűrőillesztőre támaszkodik. A mozgásvezérlési algoritmusok Jibbsmart munkáján és a GyroWiki elérhető információin alapulnak.</value>
+</data>
+<data name="AboutPage_Accelerometer" xml:space="preserve">
+    <value>Gyorsulásmérő</value>
+</data>
+<data name="AboutPage_Author" xml:space="preserve">
+    <value>Szerző</value>
+</data>
+<data name="AboutPage_Contributors" xml:space="preserve">
+    <value>Résztvevők</value>
+</data>
+<data name="AboutPage_Description" xml:space="preserve">
+    <value>Leírás</value>
+</data>
+<data name="AboutPage_Donate" xml:space="preserve">
+    <value>Adományozás</value>
+</data>
+<data name="AboutPage_Gyrometer" xml:space="preserve">
+    <value>Giroscóp</value>
+</data>
+<data name="AboutPage_Inclinometer" xml:space="preserve">
+    <value>Érintésérzékelő</value>
+</data>
+<data name="AboutPage_NotApplicable" xml:space="preserve">
+    <value>Nem elérhető</value>
+</data>
+<data name="AboutPage_RelatedLinks" xml:space="preserve">
+    <value>Kapcsolódó linkek</value>
+</data>
+<data name="AboutPage_SensorExternal" xml:space="preserve">
+    <value>Külső</value>
+</data>
+<data name="AboutPage_SensorInternal" xml:space="preserve">
+    <value>Belső</value>
+</data>
+<data name="AboutPage_SensorName" xml:space="preserve">
+    <value>Szenzor neve</value>
+</data>
+<data name="AboutPage_SensorSpecification" xml:space="preserve">
+    <value>Szenzor specifikáció</value>
+</data>
+<data name="AboutPage_Service" xml:space="preserve">
+    <value>Szolgáltatás</value>
+</data>
+<data name="AboutPage_SourceCode" xml:space="preserve">
+    <value for="AboutPage_SourceCode">Forráskód</value>
+</data>
+<data name="AboutPage_Version" xml:space="preserve">
+    <value>Változat</value>
+</data>
+<data name="AboutPage_Wiki" xml:space="preserve">
+    <value>Wiki</value>
+</data>
+<data name="Administrator" xml:space="preserve">
+    <value>Adminisztrátor</value>
+</data>
+<data name="ControllerPage_CloakDevice" xml:space="preserve">
+    <value>Vezérlő elrejtése csatlakozáskor</value>
+</data>
+<data name="ControllerPage_CloakDeviceDesc" xml:space="preserve">
+    <value>Fizikai vezérlő elrejtése csatlakozáskor</value>
+</data>
+<data name="ControllerPage_Connect" xml:space="preserve">
+    <value>Csatlakozás</value>
+</data>
+<data name="ControllerPage_Controller" xml:space="preserve">
+    <value>Vezérlő</value>
+</data>
+<data name="ControllerPage_DeviceCloaking" xml:space="preserve">
+    <value>Vezérlő elrejtése</value>
+</data>
+<data name="ControllerPage_VirtualDeviceSettings" xml:space="preserve">
+    <value>Virtuális vezérlő beállítások</value>
+</data>
+<data name="ControllerPage_Disconnect" xml:space="preserve">
+    <value>Leválasztás</value>
+</data>
+<data name="ControllerPage_PhysicalDevices" xml:space="preserve">
+    <value>Fizikai vezérlők</value>
+</data>
+<data name="ControllerPage_UncloakOnClose" xml:space="preserve">
+    <value>Vezérlők elrejtése bezárás után</value>
+</data>
+<data name="ControllerPage_UncloakOnCloseDesc" xml:space="preserve">
+    <value>Minden fizikai vezérlő láthatóságának visszaállítása az alkalmazás kilépésekor</value>
+</data>
+<data name="ControllerPage_VibrationStrength" xml:space="preserve">
+    <value>Vibrációs erősség</value>
+</data>
+<data name="ControllerPage_VibrationStrengthExpl" xml:space="preserve">
+    <value>Vibrációs erősség beállítása a vezérlőn</value>
+</data>
+<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Verzió=4.0.0.0, Kultúra=semleges, NyilvánosKulcsToken=b77a5c561934e089" />
+<data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Verzió=4.0.0.0, Kultúra=semleges, NyilvánosKulcsToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="InputsHotkey_decreaseTDP" xml:space="preserve">
+    <value>Thermal Power Limit (TDP) csökkentése</value>
+</data>
+<data name="InputsHotkey_decreaseTDPDesc" xml:space="preserve">
+    <value>A rendszer vagy éppen alkalmazott profil TDP-jének csökkentése egy wattal</value>
+</data>
+<data name="InputsHotkey_fallbackInput" xml:space="preserve">
+    <value>Billentyűzet beállítása</value>
+</data>
+<data name="InputsHotkey_fallbackOutput" xml:space="preserve">
+    <value>Gyors billentyűzet</value>
+</data>
+<data name="InputsHotkey_increaseTDP" xml:space="preserve">
+    <value>Thermal Power Limit (TDP) növelése</value>
+</data>
+<data name="InputsHotkey_increaseTDPDesc" xml:space="preserve">
+    <value>A rendszer vagy éppen alkalmazott profil TDP-jének növelése egy wattal</value>
+</data>
+<data name="InputsHotkey_overlayGamepad" xml:space="preserve">
+    <value>3D vezérlő megjelenítése</value>
+</data>
+<data name="InputsHotkey_overlayGamepadDesc" xml:space="preserve">
+    <value>3D vezérlő megváltoztatása egy gomb vagy speciális billentyű lenyomásával</value>
+</data>
+<data name="InputsHotkey_overlayTrackpads" xml:space="preserve">
+    <value>Virtuális touchpad-ek megjelenítése</value>
+</data>
+<data name="InputsHotkey_overlayTrackpadsDesc" xml:space="preserve">
+    <value>Megváltoztatja a gyorsbillentyűt egy gomb vagy speciális billentyű lenyomásával</value>
+</data>
+<data name="InputsHotkey_quickTools" xml:space="preserve">
+    <value>Gyors eszközök ablak hívása</value>
+</data>
+<data name="InputsHotkey_quickToolsDesc" xml:space="preserve">
+    <value>Megváltoztatja a gyorsbillentyűt egy gomb vagy speciális billentyű lenyomásával</value>
+</data>
+<data name="InputsHotkey_shortcutCustom" xml:space="preserve">
+    <value>Egyedi gyorsbillentyű</value>
+</data>
+<data name="InputsHotkey_shortcutCustomDesc" xml:space="preserve">
+    <value>Megváltoztatja a gyorsbillentyűt egy gomb vagy speciális billentyű lenyomásával</value>
+</data>
+<data name="InputsHotkey_shortcutDesktop" xml:space="preserve">
+    <value>Asztal megjelenítése és elrejtése</value>
+</data>
+<data name="InputsHotkey_shortcutDesktopDesc" xml:space="preserve">
+    <value>Nyomd meg ezt a billentyűt: Windows + D</value>
+</data>
+<data name="InputsHotkey_shortcutESC" xml:space="preserve">
+    <value>Megszakítás</value>
+</data>
+<data name="InputsHotkey_shortcutESCDesc" xml:space="preserve">
+    <value>Nyomd meg ezt a billentyűt: Megszakítás</value>
+</data>
+<data name="InputsHotkey_shortcutExpand" xml:space="preserve">
+    <value>Váltás ablak és teljes képernyő között</value>
+</data>
+<data name="InputsHotkey_shortcutExpandDesc" xml:space="preserve">
+    <value>Nyomd meg ezt a billentyűt: Alt + Enter</value>
+</data>
+<data name="InputsHotkey_shortcutGuide" xml:space="preserve">
+    <value>Útmutató vagy PS gomb</value>
+</data>
+<data name="InputsHotkey_shortcutGuideDesc" xml:space="preserve">
+    <value>Szimuláljon egy Xbox Guide vagy Sony PS gomb lenyomást</value>
+</data>
+<data name="InputsHotkey_shortcutKeyboard" xml:space="preserve">
+    <value>Érintőbillentyűzet megjelenítése</value>
+</data>
+<data name="InputsHotkey_shortcutKeyboardDesc" xml:space="preserve">
+    <value>Megváltoztatja a gyorsbillentyűt egy gomb vagy speciális billentyű lenyomásával</value>
+</data>
+<data name="InputsHotkey_shortcutKillApp" xml:space="preserve">
+    <value>Alkalmazás kényszerű leállítása</value>
+</data>
+<data name="InputsHotkey_shortcutKillAppDesc" xml:space="preserve">
+    <value>Megváltoztatja a gyorsbillentyűt egy gomb vagy speciális billentyű lenyomásával</value>
+</data>
+<data name="InputsHotkey_shortcutMainwindow" xml:space="preserve">
+    <value>Főablak megjelenítése és elrejtése</value>
+</data>
+<data name="InputsHotkey_shortcutMainwindowDesc" xml:space="preserve">
+    <value>Megváltoztatja a gyorsbillentyűt egy gomb vagy speciális billentyű lenyomásával</value>
+</data>
+<data name="InputsHotkey_shortcutTaskManager" xml:space="preserve">
+    <value>Feladatkezelő megnyitása</value>
+</data>
+<data name="InputsHotkey_shortcutTaskManagerDesc" xml:space="preserve">
+    <value>Nyomd meg ezt a billentyűt: Ctrl + Shift + Esc</value>
+</data>
+<data name="InputsHotkey_shortcutTaskview" xml:space="preserve">
+    <value>Feladatnézet megnyitása</value>
+</data>
+<data name="InputsHotkey_shortcutTaskviewDesc" xml:space="preserve">
+    <value>Nyomd meg ezt a billentyűt: Windows + Tab</value>
+</data>
+<data name="InputsHotkey_suspendResumeTask" xml:space="preserve">
+    <value>Felfüggesztés/Visszaállítás</value>
+</data>
+<data name="InputsHotkey_suspendResumeTaskDesc" xml:space="preserve">
+    <value>Az előtérben lévő alkalmazás felfüggesztése vagy visszaállítása</value>
+</data>
+<data name="MainWindow_HandheldCompanion" xml:space="preserve">
+    <value>Kézikísérő</value>
+</data>
+<data name="MainWindow_navAbout" xml:space="preserve">
+    <value>Rólunk</value>
+</data>
+<data name="MainWindow_navController" xml:space="preserve">
+    <value>Vezérlő</value>
+</data>
+<data name="MainWindow_navOverlay" xml:space="preserve">
+    <value>Fedélzet</value>
+</data>
+<data name="MainWindow_navProfiles" xml:space="preserve">
+    <value>Profilok</value>
+</data>
+<data name="MainWindow_OK" xml:space="preserve">
+    <value>Rendben</value>
+</data>
+<data name="MainWindow_Settings" xml:space="preserve">
+    <value>Beállítások</value>
+</data>
+<data name="OverlayPage_8BitDoLite2Controller" xml:space="preserve">
+    <value>8BitDo Lite 2</value>
+</data>
+<data name="OverlayPage_Alignment" xml:space="preserve">
+    <value>Összehangolás</value>
+</data>
+<data name="OverlayPage_AlignmentDesc" xml:space="preserve">
+    <value>3D vezérlő fedélzet összehangolásának megváltoztatása</value>
+</data>
+<data name="OverlayPage_AlignmentTrackpadDesc" xml:space="preserve">
+    <value>Virtuális touchpad-ek fedélzet összehangolásának megváltoztatása</value>
+</data>
+<data name="OverlayPage_AlwaysOnTop" xml:space="preserve">
+    <value>Mindig előtérben</value>
+</data>
+<data name="OverlayPage_AlwaysOnTopDesc" xml:space="preserve">
+    <value>Ha bekapcsolva van, a 3D vezérlő fedélzet mindig az összes más ablak előtt marad</value>
+</data>
+<data name="OverlayPage_BackButton" xml:space="preserve">
+    <value>Vissza</value>
+</data>
+<data name="OverlayPage_CameraAngle" xml:space="preserve">
+    <value>Kamera szög</value>
+</data>
+<data name="OverlayPage_CameraAngleDesc" xml:space="preserve">
+    <value>Változtassa meg a 3D vezérlő fedélzet modell viselkedését, hogy a kamerához forduljon</value>
+</data>
+<data name="OverlayPage_CameraAnglePitch" xml:space="preserve">
+    <value>Állandó pitch</value>
+</data>
+<data name="OverlayPage_CameraAnglePitchDesc" xml:space="preserve">
+    <value>Változtassa meg a szöget</value>
+</data>
+<data name="OverlayPage_Color" xml:space="preserve">
+    <value>Háttérszín</value>
+</data>
+<data name="OverlayPage_ColorDesc" xml:space="preserve">
+    <value>Változtassa meg a 3D vezérlő fedélzet hátterének színét</value>
+</data>
+<data name="OverlayPage_ControllerOptions" xml:space="preserve">
+    <value>Vezérlő beállítások</value>
+</data>
+<data name="OverlayPage_DualSenseController" xml:space="preserve">
+    <value>PlayStation DualSense</value>
+</data>
+<data name="OverlayPage_EmulatedController" xml:space="preserve">
+    <value>Emulált vezérlő</value>
+</data>
+<data name="OverlayPage_FaceCamera" xml:space="preserve">
+    <value>Kamera felé fordítás</value>
+</data>
+<data name="OverlayPage_FaceCameraDesc" xml:space="preserve">
+    <value>A 3D modell lassan a kamera felé fordul, mint alapértelmezett pozíció</value>
+</data>
+<data name="OverlayPage_Listening" xml:space="preserve">
+    <value>Figyelés...</value>
+</data>
+<data name="OverlayPage_MachenikeHG510Controller" xml:space="preserve">
+    <value>MACHENIKE HG510</value>
+</data>
+<data name="OverlayPage_MainTrigger" xml:space="preserve">
+    <value>Fő kioldó</value>
+</data>
+<data name="OverlayPage_MainTriggerDesc" xml:space="preserve">
+    <value>Változtassa meg a 3D vezérlő fedélzet fő kioldóját</value>
+</data>
+<data name="OverlayPage_MotionActivated" xml:space="preserve">
+    <value>Mozgás</value>
+</data>
+<data name="OverlayPage_MotionActivatedDesc" xml:space="preserve">
+    <value>A modell az érzékelőinformációk alapján az felhasználó mozgásával összhangban mozog</value>
+</data>
+<data name="OverlayPage_N64Controller" xml:space="preserve">
+    <value>N64</value>
+</data>
+<data name="OverlayPage_OEMController" xml:space="preserve">
+    <value>Eredeti vezérlő</value>
+</data>
+<data name="OverlayPage_Opacity" xml:space="preserve">
+    <value>Átlátszatlanság</value>
+</data>
+<data name="OverlayPage_OpacityControllerDesc" xml:space="preserve">
+    <value>Változtassa meg a 3D vezérlő fedélzet átlátszatlanságát</value>
+</data>
+<data name="OverlayPage_OpacityTrackpadDesc" xml:space="preserve">
+    <value>Változtassa meg a virtuális touchpad-ek fedélzet átlátszatlanságát</value>
+</data>
+<data name="OverlayPage_Overlay" xml:space="preserve">
+    <value>Fedélzet</value>
+</data>
+<data name="OverlayPage_OverlayModel" xml:space="preserve">
+    <value>Fedélzet modell</value>
+</data>
+<data name="OverlayPage_OverlayModelDesc" xml:space="preserve">
+    <value>Változtassa meg a 3D vezérlő fedélzet modelljét</value>
+</data>
+<data name="OverlayPage_OverlayPreview" xml:space="preserve">
+    <value>Fedélzet előnézete</value>
+</data>
+<data name="OverlayPage_RenderSettings" xml:space="preserve">
+    <value>Render beállítások</value>
+</data>
+<data name="OverlayPage_RenderSettingsAntialiasing" xml:space="preserve">
+    <value>Szélcsiszolás</value>
+</data>
+<data name="OverlayPage_RenderSettingsAntialiasingDesc" xml:space="preserve">
+    <value>Változtassa meg a render szélcsiszolásának állapotát</value>
+</data>
+<data name="OverlayPage_RenderSettingsDesc" xml:space="preserve">
+    <value>Változtassa meg a fix 3D fedélzet vezérlő modell render beállításait</value>
+</data>
+<data name="OverlayPage_RenderSettingsFramerate" xml:space="preserve">
+    <value>Frissítési ráta</value>
+</data>
+<data name="OverlayPage_RenderSettingsFramerateDesc" xml:space="preserve">
+    <value>Változtassa meg a render frissítési rátáját, másodpercenkénti frissítésben</value>
+</data>
+<data name="OverlayPage_Size" xml:space="preserve">
+    <value>Méret</value>
+</data>
+<data name="OverlayPage_SizeDesc" xml:space="preserve">
+    <value>Változtassa meg a 3D vezérlő fedélzet méretét</value>
+</data>
+<data name="OverlayPage_SizeOverlayDesc" xml:space="preserve">
+    <value>Változtassa meg a virtuális touchpad-ek fedélzet méretét</value>
+</data>
+<data name="OverlayPage_StartButton" xml:space="preserve">
+    <value>Indítás</value>
+</data>
+<data name="OverlayPage_ToyController" xml:space="preserve">
+    <value>Fisher-Price vezérlő</value>
+</data>
+<data name="OverlayPage_TrackpadsOptions" xml:space="preserve">
+    <value>Virtuális touchpad beállítások</value>
+</data>
+<data name="OverlayPage_XboxOneController" xml:space="preserve">
+    <value>Xbox One</value>
+</data>
+<data name="OverlayPage_ZDOPlusController" xml:space="preserve">
+    <value>ZD O+</value>
+</data>
+<data name="Overlay_Overlay" xml:space="preserve">
+    <value>Fedélzet</value>
+</data>
+<data name="ProcessEx_processResume" xml:space="preserve">
+    <value>Folytatás</value>
+</data>
+<data name="ProcessEx_processSuspend" xml:space="preserve">
+    <value>Felfüggesztés</value>
+</data>
+<data name="SettingsMode0_AdditionalSettings" xml:space="preserve">
+    <value>További beállítások</value>
+</data>
+<data name="SettingsMode0_AimingDownSights" xml:space="preserve">
+    <value>Írási látómező mozgás szorzó</value>
+</data>
+<data name="SettingsMode0_AimingDownSightsActivation" xml:space="preserve">
+    <value>Aktiváló gomb</value>
+</data>
+<data name="SettingsMode0_AimingDownSightsDesc" xml:space="preserve">
+    <value>Egy további mozgásérzékenység-szorzó, amikor az irányzókat használja vagy a konfigurált aktiváló gombot</value>
+</data>
+<data name="SettingsMode0_AimingDownSightsMultiplier" xml:space="preserve">
+    <value>Szorzó érték</value>
+</data>
+<data name="SettingsMode0_CameraOptions" xml:space="preserve">
+    <value>Kamera beállítások</value>
+</data>
+<data name="SettingsMode0_CustomResponseCurve" xml:space="preserve">
+    <value>Egyéni válaszgörbe</value>
+</data>
+<data name="SettingsMode0_CustomResponseCurveGameOutput" xml:space="preserve">
+    <value>Játékba küldött kimenet</value>
+</data>
+<data name="SettingsMode0_CustomResponseIntensity" xml:space="preserve">
+    <value>Mozgás intenzitása</value>
+</data>
+<data name="SettingsMode0_CustomResponsePresetAgressive" xml:space="preserve">
+    <value>Agresszív</value>
+</data>
+<data name="SettingsMode0_CustomResponsePresetDefault" xml:space="preserve">
+    <value>Alapértelmezett</value>
+</data>
+<data name="SettingsMode0_CustomResponsePresetOptions" xml:space="preserve">
+    <value>Előre beállított lehetőségek</value>
+</data>
+<data name="SettingsMode0_CustomResponsePresetPrecise" xml:space="preserve">
+    <value>Pontos</value>
+</data>
+<data name="SettingsMode0_FlickDuration" xml:space="preserve">
+    <value>Pillanatnyi időtartam</value>
+</data>
+<data name="SettingsMode0_FlickDurationDesc" xml:space="preserve">
+    <value>Változtassa meg a pillanatnyi időtartamot, kalibrálja a 180 fokos fordulatot, millimásodpercben</value>
+</data>
+<data name="SettingsMode0_FlickStick" xml:space="preserve">
+    <value>Pillanatnyi bot (kísérleti)</value>
+</data>
+<data name="SettingsMode0_FlickStickDesc" xml:space="preserve">
+    <value>Irányítsa a kamerát a (jobb) joystick villanás irányába, forgassa el a kamerát kizárólag a vízszintes síkban történő forgatással</value>
+</data>
+<data name="SettingsMode0_FlickStickEnable" xml:space="preserve">
+    <value>Pillanatnyi bot engedélyezése</value>
+</data>
+<data name="SettingsMode0_Sensitivity" xml:space="preserve">
+    <value>Érzékenység</value>
+</data>
+<data name="SettingsMode0_SensitivityDesc" xml:space="preserve">
+    <value>Változtassa meg a mozgás érzékenységét a vízszintes és függőleges tengelyen</value>
+</data>
+<data name="SettingsMode0_SensitivityX" xml:space="preserve">
+    <value>Érzékenység X tengelyen</value>
+</data>
+<data name="SettingsMode0_SensitivityXDesc" xml:space="preserve">
+    <value>Változtassa meg a mozgás érzékenységét a vízszintes tengelyen</value>
+</data>
+<data name="SettingsMode0_SensitivityY" xml:space="preserve">
+    <value>Érzékenység Y tengelyen</value>
+</data>
+<data name="SettingsMode0_SensitivityYDesc" xml:space="preserve">
+    <value>Változtassa meg a mozgás érzékenységét a függőleges tengelyen</value>
+</data>
+<data name="SettingsMode0_StickSensitivtity" xml:space="preserve">
+    <value>Bot érzékenysége</value>
+</data>
+<data name="SettingsMode0_StickSensitivtityDesc" xml:space="preserve">
+    <value>Változtassa meg a forgási sebességet</value>
+</data>
+<data name="SettingsMode1_AdditionalSettings" xml:space="preserve">
+    <value>További beállítások</value>
+</data>
+<data name="SettingsMode1_Deadzone" xml:space="preserve">
+    <value>Halott zóna</value>
+</data>
+<data name="SettingsMode1_DeadzoneDesc" xml:space="preserve">
+    <value>Változtassa meg a kormány halott zónáját. Javítja a egyenes kormányzást</value>
+</data>
+<data name="SettingsMode1_JoystickGameInput" xml:space="preserve">
+    <value>Joystick játékbevitel</value>
+</data>
+<data name="SettingsMode1_JoystickSteering" xml:space="preserve">
+    <value>Joystick kormányzás</value>
+</data>
+<data name="SettingsMode1_JoystickSteeringOptions" xml:space="preserve">
+    <value>Joystick kormányzási lehetőségek</value>
+</data>
+<data name="SettingsMode1_JoystickSteeringPreview" xml:space="preserve">
+    <value>Joystick kormányzási előnézet</value>
+</data>
+<data name="SettingsMode1_MaxSteeringAngle" xml:space="preserve">
+    <value>Maximális kormányzási szög</value>
+</data>
+<data name="SettingsMode1_MaxSteeringAngleDesc" xml:space="preserve">
+    <value>Változtassa meg a maximális kormányzási szög értékét</value>
+</data>
+<data name="SettingsMode1_SteeringLinearity" xml:space="preserve">
+    <value>Kormányzási linearitás</value>
+</data>
+<data name="SettingsMode1_SteeringLinearityDesc" xml:space="preserve">
+    <value>Lehetséges egyeztetés az input és a kormányzás között. Az alacsonyabb értékek nagyobb pontosságot biztosítanak a teljes zár felé, de kevesebb pontosságot a középpont felé. A magasabb értékek nagyobb pontosságot biztosítanak a középpont felé, de kevesebb pontosságot a teljes zár felé. 1.0 egy lineáris egyeztetés</value>
+</data>
+<data name="ProfilesPage_AccelerometerMultiplier" xml:space="preserve">
+    <value>Gyorsulásmérő szorzó</value>
+</data>
+<data name="ProfilesPage_AccelerometerMultiplierDesc" xml:space="preserve">
+    <value>Változtassa meg a rendszer által jelzett gyorsulásmérő értékét</value>
+</data>
+<data name="ProfilesPage_AdditionalSettings" xml:space="preserve">
+    <value>További beállítások</value>
+</data>
+<data name="ProfilesPage_AntiDeadzone" xml:space="preserve">
+    <value>Anti-halott zóna</value>
+</data>
+<data name="ProfilesPage_AntiDeadzoneDesc" xml:space="preserve">
+    <value>Változtassa meg a játékbeli anti-halott zónát, százalékban</value>
+</data>
+<data name="ProfilesPage_AntiDeadzoneUnitPercentage" xml:space="preserve">
+    <value> %</value>
+</data>
+<data name="ProfilesPage_AreYouSureDelete1" xml:space="preserve">
+    <value>Biztosan törölni szeretné?</value>
+</data>
+<data name="ProfilesPage_AreYouSureDelete2" xml:space="preserve">
+    <value>Ez az elem azonnal törlésre kerül. Ezt a műveletet nem lehet visszavonni.</value>
+</data>
+<data name="ProfilesPage_AreYouSureOverwrite1" xml:space="preserve">
+    <value>Biztosan felül akarja írni ezt a profilt?</value>
+</data>
+<data name="ProfilesPage_AreYouSureOverwrite2" xml:space="preserve">
+    <value>{0} fel lesz írva. Ezt a műveletet nem lehet visszavonni.</value>
+</data>
+<data name="ProfilesPage_BoostPower" xml:space="preserve">
+    <value>Turbó teljesítménykorlát</value>
+</data>
+<data name="ProfilesPage_BoostPowerDesc" xml:space="preserve">
+    <value>Változtassa meg a turbó hőteljesítmény korlátját</value>
+</data>
+<data name="ProfilesPage_Cancel" xml:space="preserve">
+    <value>Mégse</value>
+</data>
+<data name="ProfilesPage_CreateNewProfile" xml:space="preserve">
+    <value>Új profil létrehozása</value>
+</data>
+<data name="ProfilesPage_Delete" xml:space="preserve">
+    <value>Törlés</value>
+</data>
+<data name="ProfilesPage_DeleteProfile" xml:space="preserve">
+    <value>Profil törlése</value>
+</data>
+<data name="ProfilesPage_EnableProfile" xml:space="preserve">
+    <value>Felhasználóként per-játék profil</value>
+</data>
+<data name="ProfilesPage_EnableProfileDesc" xml:space="preserve">
+    <value>A profil automatikusan alkalmazódik, amikor az azonosított alkalmazás észlelhetővé válik</value>
+</data>
+<data name="ProfilesPage_GlobalSettings" xml:space="preserve">
+    <value>Globális beállítások</value>
+</data>
+<data name="ProfilesPage_GlobalSettingsDesc" xml:space="preserve">
+    <value>Változtassa meg a globális profilbeállításokat</value>
+</data>
+<data name="ProfilesPage_GyrometerMultiplier" xml:space="preserve">
+    <value>Girószámérő szorzó</value>
+</data>
+<data name="ProfilesPage_GyrometerMultiplierDesc" xml:space="preserve">
+    <value>Változtassa meg a rendszer által jelzett girószámérő értékét</value>
+</data>
+<data name="ProfilesPage_GyroSteeringAxis" xml:space="preserve">
+    <value>Giró kormányzási tengely</value>
+</data>
+<data name="ProfilesPage_GyroSteeringAxisDesc" xml:space="preserve">
+    <value>A kontroller vízszintes mozgásának vezérléséhez választhatja a yaw vagy roll tengelyt</value>
+</data>
+<data name="ProfilesPage_InvertHorizontalAxis" xml:space="preserve">
+    <value>Vízszintes tengely invertálása</value>
+</data>
+<data name="ProfilesPage_InvertVerticalAxis" xml:space="preserve">
+    <value>Függőleges tengely invertálása</value>
+</data>
+<data name="ProfilesPage_MotionControlSettings" xml:space="preserve">
+    <value>Mozgásvezérlő beállítások</value>
+</data>
+<data name="ProfilesPage_MotionControlSettingsDesc" xml:space="preserve">
+    <value>Változtassa meg a mozgásvezérlő beállításokat</value>
+</data>
+<data name="ProfilesPage_OK" xml:space="preserve">
+    <value>OK</value>
+</data>
+<data name="ProfilesPage_PowerPreset" xml:space="preserve">
+    <value>Teljesítmény előre beállítás</value>
+</data>
+<data name="ProfilesPage_PowerPresetDesc" xml:space="preserve">
+    <value>Változtassa meg a kiválasztott teljesítmény előre beállítást</value>
+</data>
+<data name="ProfilesPage_ProfileDetails" xml:space="preserve">
+    <value>Profil részletei</value>
+</data>
+<data name="ProfilesPage_ProfileName" xml:space="preserve">
+    <value>Profil neve</value>
+</data>
+<data name="ProfilesPage_ProfilePath" xml:space="preserve">
+    <value>Profil elérési útvonala</value>
+</data>
+<data name="ProfilesPage_Profiles" xml:space="preserve">
+    <value>Profilok</value>
+</data>
+<data name="ProfilesPage_ProfileSelection" xml:space="preserve">
+    <value>Profil kiválasztása</value>
+</data>
+<data name="ProfilesPage_ProfileSelectionDesc" xml:space="preserve">
+    <value>Válassza ki azt a profilt, amelyet szerkeszteni szeretne</value>
+</data>
+<data name="ProfilesPage_ProfileSettings" xml:space="preserve">
+    <value>Profil beállítások</value>
+</data>
+<data name="ProfilesPage_ProfileUpdated1" xml:space="preserve">
+    <value>A profil frissítve lett</value>
+</data>
+<data name="ProfilesPage_ProfileUpdated2" xml:space="preserve">
+    <value>frissítve lett.</value>
+</data>
+<data name="ProfilesPage_Roll" xml:space="preserve">
+    <value>Görbülés</value>
+</data>
+<data name="ProfilesPage_SensitivityX" xml:space="preserve">
+    <value>X</value>
+</data>
+<data name="ProfilesPage_SensitivityY" xml:space="preserve">
+    <value>Y</value>
+</data>
+<data name="ProfilesPage_StyleofInput" xml:space="preserve">
+    <value>Bemenet stílusa</value>
+</data>
+<data name="ProfilesPage_StyleofInputTooltip" xml:space="preserve">
+    <value>A kontroller fizikai bemeneteit különböző típusú eszközökké lehet programozni</value>
+</data>
+<data name="ProfilesPage_StyleofOutput" xml:space="preserve">
+    <value>Kimeneti eszköz</value>
+</data>
+<data name="ProfilesPage_StyleofOutputTooltip" xml:space="preserve">
+    <value>Válassza ki azt az eszközt, amely fogadja a mozgásparancsokat</value>
+</data>
+<data name="ProfilesPage_SustainedPower" xml:space="preserve">
+    <value>Fenntartott teljesítménykorlát</value>
+</data>
+<data name="ProfilesPage_SustainedPowerDesc" xml:space="preserve">
+    <value>Változtassa meg a fenntartott hőteljesítmény korlátját</value>
+</data>
+<data name="ProfilesPage_TDPOverride" xml:space="preserve">
+    <value>Hőteljesítmény (TDP) korlát</value>
+</data>
+<data name="ProfilesPage_TDPOverrideDesc" xml:space="preserve">
+    <value>Korlátozza a processzor teljesítményét kevesebb összesített teljesítményért</value>
+</data>
+<data name="ProfilesPage_UMCEnable" xml:space="preserve">
+    <value>Egyetemes mozgásvezérlő engedélyezése</value>
+</data>
+<data name="ProfilesPage_UMCMotionOff" xml:space="preserve">
+    <value>Letiltva, bekapcsolható gombbal(okkal)</value>
+</data>
+<data name="ProfilesPage_UMCMotionOn" xml:space="preserve">
+    <value>Engedélyezve, kikapcsolható gombbal(okkal)</value>
+</data>
+<data name="ProfilesPage_UMCMotionToggle" xml:space="preserve">
+    <value>Váltás engedélyezve vagy letiltva gombbal(okkal)</value>
+</data>
+<data name="ProfilesPage_UMCMotionOnOff" xml:space="preserve">
+    <value>Mozgás aktiválása</value>
+</data>
+<data name="ProfilesPage_UMCMotionOnOffDesc" xml:space="preserve">
+    <value>Mozgás bemenet letiltva: tartsa lenyomva a kiválasztott gombot(okat) a mozgás engedélyezéséhez.
+Mozgás bemenet engedélyezve: tartsa lenyomva a kiválasztott gombot(okat) a mozgás letiltásához.
+Mozgás bemenet váltás: nyomja meg a kiválasztott gombot(okat) a mozgás állapotának váltásához.</value>
+</data>
+<data name="ProfilesPage_UMCSelectionRightLeftDesc" xml:space="preserve">
+    <value>Válassza ki azt az eszközt, amely fogadja a mozgásparancsokat</value>
+</data>
+<data name="ProfilesPage_UMCSettings" xml:space="preserve">
+    <value>Egyetemes mozgásvezérlő beállítások</value>
+</data>
+<data name="ProfilesPage_UMCSettingsDesc" xml:space="preserve">
+    <value>Az eszközmozgások fordítása kontroller bemenetekké</value>
+</data>
+<data name="ProfilesPage_UpdateProfile" xml:space="preserve">
+    <value>Profil frissítése</value>
+</data>
+<data name="ProfilesPage_Whitelist" xml:space="preserve">
+    <value>Engedélyezze az alkalmazást a fizikai kontrollerhez való hozzáféréshez</value>
+</data>
+<data name="ProfilesPage_Wrapper" xml:space="preserve">
+    <value>Kiterjesztett kompatibilitás (XInputPlus)</value>
+</data>
+<data name="ProfilesPage_Yaw" xml:space="preserve">
+    <value>Yaw</value>
+</data>
+<data name="ProfilesPage_Yes" xml:space="preserve">
+    <value>Igen</value>
+</data>
+<data name="Properties.Resources.ControllerPage_Disconnect" xml:space="preserve">
+    <value>Kapcsolat bontása</value>
+</data>
+<data name="QuickPerformancePage_GPUControl" xml:space="preserve">
+    <value>Manuális GPU órajelezés vezérlés</value>
+</data>
+<data name="QuickPerformancePage_GPUControlDesc" xml:space="preserve">
+    <value>Befolyásolja a GPU-t egy fix órajelre</value>
+</data>
+<data name="QuickPerformancePage_GPUUnit" xml:space="preserve">
+    <value> MHz</value>
+</data>
+<data name="QuickPerformancePage_PowerMode" xml:space="preserve">
+    <value>Teljesítmény mód</value>
+</data>
+<data name="QuickPerformancePage_PowerModeBalanced" xml:space="preserve">
+    <value>Kiegyensúlyozott</value>
+</data>
+<data name="QuickPerformancePage_PowerModeDesc" xml:space="preserve">
+    <value>Optimalizálja az eszközt az energiafelhasználás és a teljesítmény alapján</value>
+</data>
+<data name="QuickPerformancePage_PowerModeEfficiency" xml:space="preserve">
+    <value>Hatékonyság</value>
+</data>
+<data name="QuickPerformancePage_PowerModePerformance" xml:space="preserve">
+    <value>Teljesítmény</value>
+</data>
+<data name="QuickPerformancePage_TDPBoost" xml:space="preserve">
+    <value>Turbo</value>
+</data>
+<data name="QuickPerformancePage_TDPLimit" xml:space="preserve">
+    <value>Hőteljesítmény (TDP) korlát</value>
+</data>
+<data name="QuickPerformancePage_TDPLimitDesc" xml:space="preserve">
+    <value>Korlátozza a processzor teljesítményét kevesebb összesített teljesítményért</value>
+</data>
+<data name="QuickPerformancePage_TDPOverWrittenWarning" xml:space="preserve">
+    <value>A hőteljesítmény korlátot felülírja egy profil</value>
+</data>
+<data name="QuickPerformancePage_TDPSustained" xml:space="preserve">
+    <value>Fenntartott</value>
+</data>
+<data name="QuickPerformancePage_TDPUnitWatt" xml:space="preserve">
+    <value> W</value>
+</data>
+<data name="QuickProfilesPage_Create" xml:space="preserve">
+    <value>Profil létrehozása</value>
+</data>
+<data name="QuickProfilesPage_Waiting" xml:space="preserve">
+    <value>Várakozás a háttérben futó folyamatra...</value>
+</data>
+<data name="ServiceDescription" xml:space="preserve">
+    <value>Windows kézikonzolokhoz gyroszkóp és gyorsulásmérő támogatást nyújt egy virtuális vezérlőn keresztül. Ha a szolgáltatás engedélyezve van, a beágyazott vezérlő el lesz rejtve az engedélyezett alkalmazásokon kívül. Ha a szolgáltatás letiltva van, a beágyazott vezérlő látható lesz, és a virtuális vezérlő kikapcsolódik.</value>
+</data>
+<data name="ServiceName" xml:space="preserve">
+    <value>Vezérlő szolgáltatás</value>
+</data>
+<data name="SettingsPage_AppLanguage" xml:space="preserve">
+    <value>Nyelv</value>
+</data>
+<data name="SettingsPage_AppLanguageDesc" xml:space="preserve">
+    <value>Az alkalmazás nyelve</value>
+</data>
+<data name="SettingsPage_AppLanguageWarning" xml:space="preserve">
+    <value>Újraindítás szükséges</value>
+</data>
+<data name="SettingsPage_AppLanguageWarningDesc" xml:space="preserve">
+    <value>A változtatások érvényesítéséhez kérjük, indítsa újra az alkalmazást</value>
+</data>
+<data name="SettingsPage_AppTheme" xml:space="preserve">
+    <value>Alkalmazás téma</value>
+</data>
+<data name="SettingsPage_AppThemeDesc" xml:space="preserve">
+    <value>Az alkalmazás téma, világos vagy sötét mód</value>
+</data>
+<data name="SettingsPage_AutoStartApp" xml:space="preserve">
+    <value>Automatikus indítás az alkalmazással</value>
+</data>
+<data name="SettingsPage_AutoStartAppDesc" xml:space="preserve">
+    <value>Az alkalmazás automatikusan elindul, amikor bejelentkezem a Windows rendszerbe</value>
+</data>
+<data name="SettingsPage_Backdrop" xml:space="preserve">
+    <value>Alkalmazás háttér</value>
+</data>
+<data name="SettingsPage_BackdropAcrylic" xml:space="preserve">
+    <value>Akril</value>
+</data>
+<data name="SettingsPage_BackdropDesc" xml:space="preserve">
+    <value>Az alkalmazás háttér, nincs, mica, lapozott, akril</value>
+</data>
+<data name="SettingsPage_BackdropMica" xml:space="preserve">
+    <value>Mica</value>
+</data>
+<data name="SettingsPage_BackdropNone" xml:space="preserve">
+    <value>None</value>
+</data>
+<data name="SettingsPage_BackdropTabbed" xml:space="preserve">
+    <value>Lapozott</value>
+</data>
+<data name="SettingsPage_CheckForUpdates" xml:space="preserve">
+    <value>Frissítések keresése</value>
+</data>
+<data name="SettingsPage_CloseMinimizes" xml:space="preserve">
+    <value>Az alkalmazás bezárása minimalizálja</value>
+</data>
+<data name="SettingsPage_CloseMinimizesDesc" xml:space="preserve">
+    <value>Az alkalmazás minimalizálódik bezárás helyett</value>
+</data>
+<data name="SettingsPage_EnableDesktopProfileOnStart" xml:space="preserve">
+    <value>Asztali profil engedélyezése indításkor</value>
+</data>
+<data name="SettingsPage_EnableDesktopProfileOnStartDesc" xml:space="preserve">
+    <value>Az asztali profil automatikusan engedélyezve lesz az alkalmazás indításakor</value>
+</data>
+<data name="SettingsPage_Download" xml:space="preserve">
+    <value>Letöltés</value>
+</data>
+<data name="SettingsPage_DownloadingPercentage" xml:space="preserve">
+    <value>Letöltés folyamatban - </value>
+</data>
+<data name="SettingsPage_EcoQoS" xml:space="preserve">
+    <value>Intelligens hatékonyság</value>
+</data>
+<data name="SettingsPage_EcoQoSDesc" xml:space="preserve">
+    <value>Az intelligens hatékonyság mód csökkenti a háttérben futó folyamatok prioritását és javítja az energiahatékonyságot</value>
+</data>
+<data name="SettingsPage_GeneralOptions" xml:space="preserve">
+    <value>Általános beállítások</value>
+</data>
+<data name="SettingsPage_InstallNow" xml:space="preserve">
+    <value>Telepítés most</value>
+</data>
+<data name="SettingsPage_LastChecked" xml:space="preserve">
+    <value>Utolsó ellenőrzés: </value>
+</data>
+<data name="SettingsPage_NotificationOptions" xml:space="preserve">
+    <value>Értesítési beállítások</value>
+</data>
+<data name="SettingsPage_OpenAppBackground" xml:space="preserve">
+    <value>Alkalmazás megnyitása a háttérben</value>
+</data>
+<data name="SettingsPage_OpenAppBackgroundDesc" xml:space="preserve">
+    <value>Az alkalmazás kezdetben minimalizálva indul el, és megjelenik a tálcán</value>
+</data>
+<data name="SettingsPage_SensorExternal" xml:space="preserve">
+    <value>Külső</value>
+</data>
+<data name="SettingsPage_SensorInternal" xml:space="preserve">
+    <value>Belső</value>
+</data>
+<data name="SettingsPage_SensorOptions" xml:space="preserve">
+    <value>Szenzor beállítások</value>
+</data>
+<data name="SettingsPage_SensorPlacementDirection" xml:space="preserve">
+    <value>Külső szenzor elhelyezési iránya</value>
+</data>
+<data name="SettingsPage_SensorPlacementDirectionDesc" xml:space="preserve">
+    <value>Válassza ki, hogy az eszköz melyik oldalára van felszerelve a szenzor</value>
+</data>
+<data name="SettingsPage_SensorPlacementUpsideDown" xml:space="preserve">
+    <value>Külső szenzor fejjel lefelé</value>
+</data>
+<data name="SettingsPage_SensorPlacementUpsideDownDesc" xml:space="preserve">
+    <value>A szenzor fejjel lefelé van felszerelve, lehetséges USB-C adapterrel</value>
+</data>
+<data name="SettingsPage_SensorSelection" xml:space="preserve">
+    <value>Szenzor kiválasztása</value>
+</data>
+<data name="SettingsPage_SensorSelectionDesc" xml:space="preserve">
+    <value>Válassza ki a mozgás bemenetéhez használt kívánt szenzort</value>
+</data>
+<data name="SettingsPage_Settings" xml:space="preserve">
+    <value>Beállítások</value>
+</data>
+<data name="SettingsPage_StartupType" xml:space="preserve">
+    <value>Indítási típus</value>
+</data>
+<data name="SettingsPage_StartupTypeDesc" xml:space="preserve">
+    <value>A szolgáltatáskezelő által használt szolgáltatás indítási típusának meghatározása</value>
+</data>
+<data name="SettingsPage_TDPMax" xml:space="preserve">
+    <value>Maximális teljesítmény</value>
+</data>
+<data name="SettingsPage_TDPMaxDesc" xml:space="preserve">
+    <value>A processzornak szállított maximális teljesítmény watban</value>
+</data>
+<data name="SettingsPage_TDPMin" xml:space="preserve">
+    <value>Minimális teljesítmény</value>
+</data>
+<data name="SettingsPage_TDPMinDesc" xml:space="preserve">
+    <value>A processzornak szállított minimális teljesítmény watban</value>
+</data>
+<data name="SettingsPage_TDPRangeOverride" xml:space="preserve">
+    <value>Beállítható teljesítmény (cTDP) felülírása</value>
+</data>
+<data name="SettingsPage_TDPRangeOverrideDesc" xml:space="preserve">
+    <value>Lehetővé teszi a minimális és maximális teljesítményértékek (TDP) módosítását a CPU specifikációin túl</value>
+</data>
+<data name="SettingsPage_ThemeDark" xml:space="preserve">
+    <value>Sötét</value>
+</data>
+<data name="SettingsPage_ThemeLight" xml:space="preserve">
+    <value>Világos</value>
+</data>
+<data name="SettingsPage_ToastNotification" xml:space="preserve">
+    <value>Értesítés sütiben</value>
+</data>
+<data name="SettingsPage_ToastNotificationDesc" xml:space="preserve">
+    <value>Értesítések fogadása az alkalmazástól a Windows értesítési központjában</value>
+</data>
+<data name="SettingsPage_UpdateAvailable" xml:space="preserve">
+    <value>Frissítések elérhetők</value>
+</data>
+<data name="SettingsPage_UpdateCheck" xml:space="preserve">
+    <value>Frissítések keresése...</value>
+</data>
+<data name="SettingsPage_UpdateFailedDownload" xml:space="preserve">
+    <value>Nem sikerült letölteni a frissítési fájlt.</value>
+</data>
+<data name="SettingsPage_UpdateFailedGithub" xml:space="preserve">
+    <value>Nem sikerült kapcsolatba lépni a GitHubkal.</value>
+</data>
+<data name="SettingsPage_UpdateFailedInstall" xml:space="preserve">
+    <value>Nem található a frissítési fájl.</value>
+</data>
+<data name="SettingsPage_UpdateWarning" xml:space="preserve">
+    <value>Hoppá. Probléma merült fel.</value>
+</data>
+<data name="SettingsPage_UpToDate" xml:space="preserve">
+    <value>Frissítve vagy</value>
+</data>
+<data name="ToastNewControllerEx" xml:space="preserve">
+    <value>A vezérlő most el van rejtve, és a beviteli parancsok továbbítva a virtuális vezérlőhöz</value>
+</data>
+<data name="User" xml:space="preserve">
+    <value>Felhasználó</value>
+</data>
+<data name="WarningElevated" xml:space="preserve">
+    <value>Az eszköz beállításainak feloldásához fussa ezt az eszközt rendszergazdaként</value>
+</data>
+<data name="XInputPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XInputPlus.ini;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+</data>
+<data name="ControllerPage_SteamControllerMute" xml:space="preserve">
+    <value>Virtuális vezérlő elnémítása</value>
+</data>
+<data name="ControllerPage_SteamControllerMuteDesc" xml:space="preserve">
+    <value>A virtuális vezérlő elnémítása a Steamhez kapcsolódó alkalmazásokban</value>
+</data>
+<data name="ProfilesPage_ControllerSettings" xml:space="preserve">
+    <value>Vezérlő beállítások</value>
+</data>
+<data name="ProfilesPage_ControllerSettingsDesc" xml:space="preserve">
+    <value>Változtassa meg a virtuális vezérlő beállításait</value>
+</data>
+<data name="ProfilesPage_UMCAntiDeadzone" xml:space="preserve">
+    <value>Mozgás anti-halott zóna</value>
+</data>
+<data name="ProfilesPage_UMCAntiDeadzoneDesc" xml:space="preserve">
+    <value>Kompenzálja a játékbeli halott zónát, javítja a kis mozgások regisztrációját</value>
+</data>
+<data name="chord_neptune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\controller_base\chord_neptune.vdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</data>
+<data name="empty_neptune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\controller_base\empty_neptune.vdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</data>
+<data name="ProfilesPage_ThumbImproveCircularityDesc" xml:space="preserve">
+    <value>Javítja a karika kör alakúságát</value>
+</data>
+<data name="ProfilesPage_ThumbImproveCircularityLeft" xml:space="preserve">
+    <value>Karika bal karika</value>
+</data>
+<data name="ProfilesPage_ThumbImproveCircularityRight" xml:space="preserve">
+    <value>Karika jobb karika</value>
+</data>
+<data name="ProfilesPage_JoystickDeadZoneLeft" xml:space="preserve">
+    <value>Joystick halott zóna % balra</value>
+</data>
+<data name="ProfilesPage_JoystickDeadZoneLeftDesc" xml:space="preserve">
+    <value>Állítsa be a bal joystick belső és külső halott zóna százalékát</value>
+</data>
+<data name="ProfilesPage_JoystickDeadZoneRight" xml:space="preserve">
+    <value>Joystick halott zóna % jobbra</value>
+</data>
+<data name="ProfilesPage_JoystickDeadZoneRightDesc" xml:space="preserve">
+    <value>Állítsa be a jobb joystick belső és külső halott zóna százalékát</value>
+</data>
+<data name="ProfilesPage_TriggerDeadZoneLeft" xml:space="preserve">
+    <value>Balsó ravasz halott zóna %</value>
+</data>
+<data name="ProfilesPage_TriggerDeadZoneLeftDesc" xml:space="preserve">
+    <value>Állítsa be a bal ravasz belső és külső halott zóna százalékát</value>
+</data>
+<data name="ProfilesPage_TriggerDeadZoneRight" xml:space="preserve">
+    <value>Jobb ravasz halott zóna %</value>
+</data>
+<data name="ProfilesPage_TriggerDeadZoneRightDesc" xml:space="preserve">
+    <value>Állítsa be a jobb ravasz belső és külső halott zóna százalékát</value>
+</data>
+<data name="ControllerPage_VibrateDevice" xml:space="preserve">
+    <value>Rezegtetés a vezérlő csatlakoztatásakor</value>
+</data>
+<data name="ControllerPage_VibrateDeviceDesc" xml:space="preserve">
+    <value>Fizikai vezérlő rezegtetése csatlakozáskor</value>
+</data>
+<data name="InputsHotkey_DesktopLayoutEnabled" xml:space="preserve">
+    <value>Asztali elrendezés</value>
+</data>
+<data name="InputsHotkey_DesktopLayoutEnabledDesc" xml:space="preserve">
+    <value>Asztali vezérlő elrendezésének váltása</value>
+</data>
+<data name="InputsHotkey_shortcutControlCenter" xml:space="preserve">
+    <value>Műveletközpont megjelenítése</value>
+</data>
+<data name="InputsHotkey_shortcutControlCenterDesc" xml:space="preserve">
+    <value>A Windows Műveletközpont megjelenítése és elrejtése</value>
+</data>
+<data name="ProfilesPage_ControllerLayout" xml:space="preserve">
+    <value>Vezérlő elrendezés</value>
+</data>
+<data name="InputsHotkey_QuietModeToggled" xml:space="preserve">
+    <value>Ventilátor felülbírálása</value>
+</data>
+<data name="InputsHotkey_QuietModeToggledDesc" xml:space="preserve">
+    <value>A ventilátor működési ciklusának beállítása felhasználó által meghatározott értékre</value>
+</data>
+<data name="InputsHotkey_OnScreenDisplay" xml:space="preserve">
+    <value>Képernyőn megjelenítés</value>
+</data>
+<data name="InputsHotkey_OnScreenDisplayDesc" xml:space="preserve">
+    <value>Képernyőn megjelenítés támogatásának engedélyezése</value>
+</data>
+<data name="InputsHotkey_decreaseBrightness" xml:space="preserve">
+    <value>Fényerő csökkentése</value>
+</data>
+<data name="InputsHotkey_decreaseBrightnessDesc" xml:space="preserve">
+    <value>A jelenlegi kijelző fényerejének csökkentése 5%-kal</value>
+</data>
+<data name="InputsHotkey_decreaseVolume" xml:space="preserve">
+    <value>Hangerő csökkentése</value>
+</data>
+<data name="InputsHotkey_decreaseVolumeDesc" xml:space="preserve">
+    <value>A rendszer hangerőjének csökkentése 5%-kal</value>
+</data>
+<data name="InputsHotkey_increaseBrightness" xml:space="preserve">
+    <value>Fényerő növelése</value>
+</data>
+<data name="InputsHotkey_increaseBrightnessDesc" xml:space="preserve">
+    <value>A jelenlegi kijelző fényerejének növelése 5%-kal</value>
+</data>
+<data name="InputsHotkey_increaseVolume" xml:space="preserve">
+    <value>Hangerő növelése</value>
+</data>
+<data name="InputsHotkey_increaseVolumeDesc" xml:space="preserve">
+    <value>A rendszer hangerőjének növelése 5%-kal</value>
+</data>
+<data name="ProfilesPage_AutoTDP" xml:space="preserve">
+    <value>Automatikus TDP</value>
+</data>
+<data name="ProfilesPage_AutoTDPDesc" xml:space="preserve">
+    <value>A TDP automatikus beállítása az FPS mérésével és a kívánt FPS céllal</value>
+</data>
+<data name="ProfilesPage_AutoTDPFPS" xml:space="preserve">
+    <value>Képkockasebesség cél</value>
+</data>
+<data name="ProfilesPage_AutoTDPFPSDesc" xml:space="preserve">
+    <value>Az automatikus TDP szabályozóhoz kívánt képkockasebesség céleredményének értéke</value>
+</data>
+<data name="ProfilesPage_GPUMhz" xml:space="preserve">
+    <value>GPU órajel maximális frekvenciája</value>
+</data>
+<data name="ProfilesPage_GPUMhzDesc" xml:space="preserve">
+    <value>A GPU maximális órajel frekvenciája Mhz-ben</value>
+</data>
+<data name="QuickPerformancePage_AutoTDPUnitFPS" xml:space="preserve">
+    <value>képkocka/mp</value>
+</data>
+<data name="OverlayPage_OverlayDisplayLevel" xml:space="preserve">
+    <value>Visszajelzés szintje az átlátszón</value>
+</data>
+<data name="OverlayPage_OverlayDisplayLevelDesc" xml:space="preserve">
+    <value>A képernyőn megjelenített információk szintjének változtatása</value>
+</data>
+<data name="OverlayPage_OverlayDisplayUpdateRate" xml:space="preserve">
+    <value>Frissítési gyakoriság</value>
+</data>
+<data name="OverlayPage_OverlayDisplayUpdateRateDesc" xml:space="preserve">
+    <value>A képernyőn megjelenített információk frissítési gyakoriságának változtatása</value>
+</data>
+<data name="ProfilesPage_FramerateLimit" xml:space="preserve">
+    <value>Képkockasebesség korlátozás</value>
+</data>
+<data name="ProfilesPage_FramerateLimitDesc" xml:space="preserve">
+    <value>Korlátozza a képkockasebességet 3D alkalmazásokhoz</value>
+</data>
+<data name="InputsHotkey_shortcutPrintScreen" xml:space="preserve">
+    <value>Képernyőkép készítése</value>
+</data>
+<data name="InputsHotkey_shortcutPrintScreenDesc" xml:space="preserve">
+    <value>Nyomja meg ezt a billentyűkombinációt: Windows + Shift + S</value>
+</data>
+<data name="MainWindow_navHotkeys" xml:space="preserve">
+    <value>Billentyűparancsok</value>
+</data>
+<data name="SettingsPage_ThemeDefault" xml:space="preserve">
+    <value>Rendszerbeállítás használata</value>
+</data>
+<data name="ButtonsPage_ABXY" xml:space="preserve">
+    <value>A,B,X,Y</value>
+</data>
+<data name="ButtonsPage_Back_Grips" xml:space="preserve">
+    <value>HÁTULI FOGÁSOK</value>
+</data>
+<data name="ButtonsPage_Bumpers" xml:space="preserve">
+    <value>RAVASZOK</value>
+</data>
+<data name="ButtonsPage_Menu" xml:space="preserve">
+    <value>MENÜ</value>
+</data>
+<data name="ButtonsPage_OEM" xml:space="preserve">
+    <value>GYÁRTÓI</value>
+</data>
+<data name="DPadPage_DPad" xml:space="preserve">
+    <value>IRÁNYGOMB</value>
+</data>
+<data name="JoystickPage_Joystick_Left" xml:space="preserve">
+    <value>BAL JOYSTICK</value>
+</data>
+<data name="JoystickPage_Joystick_Left_Buttons" xml:space="preserve">
+    <value>BAL JOYSTICK GOMBOK</value>
+</data>
+<data name="JoystickPage_Joystick_Right" xml:space="preserve">
+    <value>JOBB JOYSTICK</value>
+</data>
+<data name="JoystickPage_Joystick_Right_Buttons" xml:space="preserve">
+    <value>JOBB JOYSTICK GOMBOK</value>
+</data>
+<data name="TrackPadsPage_Trackpad_Left" xml:space="preserve">
+    <value>BAL TOUCHPAD</value>
+</data>
+<data name="TrackPadsPage_Trackpad_Left_Buttons" xml:space="preserve">
+    <value>BAL TOUCHPAD GOMBOK</value>
+</data>
+<data name="TrackPadsPage_Trackpad_Right" xml:space="preserve">
+    <value>JOBB TOUCHPAD</value>
+</data>
+<data name="TrackPadsPage_Trackpad_Right_Buttons" xml:space="preserve">
+    <value>JOBB TOUCHPAD GOMBOK</value>
+</data>
+<data name="TriggersPage_Trigger_Left" xml:space="preserve">
+    <value>BAL KAPCSOLÓ</value>
+</data>
+<data name="TriggersPage_Trigger_Left_Button" xml:space="preserve">
+    <value>BAL KAPCSOLÓ GOMBOK</value>
+</data>
+<data name="TriggersPage_Trigger_Right" xml:space="preserve">
+    <value>JOBB KAPCSOLÓ</value>
+</data>
+<data name="TriggersPage_Trigger_Right_Button" xml:space="preserve">
+    <value>JOBB KAPCSOLÓ GOMBOK</value>
+</data>
+<data name="AboutPage_Partner" xml:space="preserve">
+    <value>Partner</value>
+</data>
+<data name="Dialog_Yes" xml:space="preserve">
+    <value>Igen</value>
+</data>
+<data name="Dialog_No" xml:space="preserve">
+    <value>Nem</value>
+</data>
+<data name="Dialog_ForceRestartDesc" xml:space="preserve">
+    <value>Az eszköz újraindítása szükséges a változtatások érvényesítéséhez. Szeretné most újraindítani?</value>
+</data>
+<data name="Dialog_ForceRestartTitle" xml:space="preserve">
+    <value>Újraindítás szükséges</value>
+</data>
+<data name="SettingsPage_ControllerManagementDependencyPrimary" xml:space="preserve">
+    <value>Igen</value>
+</data>
+<data name="SettingsPage_ControllerManagementDependencySecondary" xml:space="preserve">
+    <value>Nem</value>
+</data>
+<data name="SettingsPage_ControllerManagementDependencyText" xml:space="preserve">
+    <value>Ez a beállítás kikapcsolásakor a "Virtuális vezérlő érzékelésének javítása" is kikapcsolódik. Folytatja?</value>
+</data>
+<data name="SettingsPage_ControllerManagementDependencyTitle" xml:space="preserve">
+    <value>Figyelmeztetés</value>
+</data>
+<data name="MainWindow_ControllerManagementClosePrimary" xml:space="preserve">
+    <value>Igen</value>
+</data>
+<data name="MainWindow_ControllerManagementCloseSecondary" xml:space="preserve">
+    <value>Nem</value>
+</data>
+<data name="MainWindow_ControllerManagementCloseText" xml:space="preserve">
+    <value>A Virtuális vezérlő érzékelésének javítása nem működhet, ha bezárja a Kézben Tartott Társat. Biztosan bezárja?</value>
+</data>
+<data name="MainWindow_ControllerManagementCloseTitle" xml:space="preserve">
+    <value>Figyelmeztetés</value>
+</data>
+<data name="AboutPage_Manufacturer" xml:space="preserve">
+    <value>Gyártó</value>
+</data>
+<data name="AboutPage_ProductName" xml:space="preserve">
+    <value>Termék neve</value>
+</data>
+<data name="ControllerPage_NoPhysicalControllerWarning" xml:space="preserve">
+    <value>Nincs fizikai vezérlő csatlakoztatva</value>
+</data>
+<data name="ControllerPage_DesktopLayout" xml:space="preserve">
+    <value>Asztali elrendezés</value>
+</data>
+<data name="ControllerPage_DesktopLayoutDefine" xml:space="preserve">
+    <value>Asztali elrendezés meghatározása</value>
+</data>
+<data name="ControllerPage_DesktopLayoutDefineController" xml:space="preserve">
+    <value>Vezérlő elrendezés meghatározása asztali módban</value>
+</data>
+<data name="ControllerPage_DesktopLayoutEdit" xml:space="preserve">
+    <value>Szerkesztés</value>
+</data>
+<data name="ControllerPage_DesktopLayoutEnable" xml:space="preserve">
+    <value>Asztali elrendezés engedélyezése</value>
+</data>
+<data name="ControllerPage_NonGameControllerLayouts" xml:space="preserve">
+    <value>Nem játékvezérlő elrendezések</value>
+</data>
+<data name="ControllerPage_NoPhysicalControllerAction" xml:space="preserve">
+    <value>Kattinthatsz a Csatlakozásra a bedugott vezérlő mellett.</value>
+</data>
+<data name="ControllerPage_NoPhysicalControllerDesc" xml:space="preserve">
+    <value>Nincs fizikai vezérlő csatlakoztatva. Nincsenek bemenetek elküldve az HC vagy annak szolgáltatása felé.</value>
+</data>
+<data name="ControllerPage_NoPhysicalControllerDetectedAction" xml:space="preserve">
+    <value>Kérjük, győződjön meg róla, hogy csatlakoztatott egy kompatibilis XInput vagy DInput eszközt.</value>
+</data>
+<data name="ControllerPage_NoPhysicalControllerDetectedWarning" xml:space="preserve">
+    <value>Nincs fizikai vezérlő érzékelve</value>
+</data>
+<data name="ControllerPage_NoVirtualControllerAction" xml:space="preserve">
+    <value>Elindíthatja a társ szolgáltatást, vagy ellenőrizheti, hogy a virtuális vezérlő állapota: Csatlakoztatva</value>
+</data>
+<data name="ControllerPage_NoVirtualControllerDesc" xml:space="preserve">
+    <value>A fizikai vezérlő el van rejtve, de nincs elérhető virtuális vezérlő. Nincsenek bemenetek elküldve a játékok felé.</value>
+</data>
+<data name="ControllerPage_NoVirtualControllerWarning" xml:space="preserve">
+    <value>Nincs virtuális vezérlő érzékelve</value>
+</data>
+<data name="ControllerPage_PhysicalControllerHiddenAction" xml:space="preserve">
+    <value>Talán fel akarja oldani a virtuális vezérlőt, vagy láthatóvá akarja tenni a fizikai vezérlőt.</value>
+</data>
+<data name="ControllerPage_PhysicalControllerHiddenDesc" xml:space="preserve">
+    <value>A fizikai vezérlő el van rejtve, de a virtuális vezérlő nincs némítva.</value>
+</data>
+<data name="ControllerPage_PhysicalControllerHiddenWarning" xml:space="preserve">
+    <value>A fizikai vezérlő el van rejtve</value>
+</data>
+<data name="ControllerPage_PhysicalControllerNotHiddenAction" xml:space="preserve">
+    <value>Talán el akarja rejteni a fizikai vezérlőt, vagy némítani a virtuális vezérlőt.</value>
+</data>
+<data name="ControllerPage_PhysicalControllerNotHiddenDesc" xml:space="preserve">
+    <value>A fizikai vezérlő nem rejtve, de a virtuális vezérlő némítva van. Kétszeres bemenetekkel találkozhat játékokban.</value>
+</data>
+<data name="ControllerPage_PhysicalControllerNotHiddenWarning" xml:space="preserve">
+    <value>A fizikai vezérlő nem rejtve</value>
+</data>
+<data name="ControllerPage_SteamControllerHDRumble" xml:space="preserve">
+    <value>HD rezgés</value>
+</data>
+<data name="ControllerPage_SteamControllerHDRumbleDesc" xml:space="preserve">
+    <value>Magas felbontású rezgés motor használata, magasabb CPU használat árán</value>
+</data>
+<data name="ControllerPage_PhysicalDeviceSettings" xml:space="preserve">
+    <value>Fizikai vezérlő beállítások</value>
+</data>
+<data name="LayoutPage_ApplyTemplate" xml:space="preserve">
+    <value>Sablon alkalmazása</value>
+</data>
+<data name="LayoutPage_Buttons" xml:space="preserve">
+    <value>Gombok</value>
+</data>
+<data name="LayoutPage_Cancel" xml:space="preserve">
+    <value>Mégse</value>
+</data>
+<data name="LayoutPage_Community" xml:space="preserve">
+    <value>KÖZÖSSÉG</value>
+</data>
+<data name="LayoutPage_Confirm" xml:space="preserve">
+    <value>Megerősít</value>
+</data>
+<data name="LayoutPage_Dpad" xml:space="preserve">
+    <value>Iránygombok</value>
+</data>
+<data name="LayoutPage_ExportCurrentController" xml:space="preserve">
+    <value>Exportálás az aktuális vezérlőhöz</value>
+</data>
+<data name="LayoutPage_ExportLayout" xml:space="preserve">
+    <value>Elrendezés exportálása</value>
+</data>
+<data name="LayoutPage_Gyro" xml:space="preserve">
+    <value>Gyro</value>
+</data>
+<data name="LayoutPage_Joysticks" xml:space="preserve">
+    <value>Joystickok</value>
+</data>
+<data name="LayoutPage_LayoutAuthor" xml:space="preserve">
+    <value>Elrendezés szerzője</value>
+</data>
+<data name="LayoutPage_LayoutDesc" xml:space="preserve">
+    <value>Elrendezés leírása</value>
+</data>
+<data name="LayoutPage_LayoutTitle" xml:space="preserve">
+    <value>Elrendezés címe</value>
+</data>
+<data name="LayoutPage_SaveGameInfoLayout" xml:space="preserve">
+    <value>Játék információk mentése az elrendezéssel</value>
+</data>
+<data name="LayoutPage_ShowCurrentControllerTemplates" xml:space="preserve">
+    <value>Mutassa csak az aktuális vezérlő sablonokat</value>
+</data>
+<data name="LayoutPage_TemplatePicker" xml:space="preserve">
+    <value>Elrendezés sablon kiválasztó</value>
+</data>
+<data name="LayoutPage_Templates" xml:space="preserve">
+    <value>SABLONOK</value>
+</data>
+<data name="LayoutPage_Trackpads" xml:space="preserve">
+    <value>Érintőpálcák</value>
+</data>
+<data name="LayoutPage_Triggers" xml:space="preserve">
+    <value>Kapcsolók</value>
+</data>
+<data name="OverlayPage_Millisecond" xml:space="preserve">
+    <value>ms</value>
+</data>
+<data name="OverlayPage_OverlayDisplayLevel_Disabled" xml:space="preserve">
+    <value>Letiltva</value>
+</data>
+<data name="OverlayPage_OverlayDisplayLevel_Extended" xml:space="preserve">
+    <value>Kiterjesztett</value>
+</data>
+<data name="OverlayPage_OverlayDisplayLevel_Full" xml:space="preserve">
+    <value>Teljes</value>
+</data>
+<data name="OverlayPage_OverlayDisplayLevel_Minimal" xml:space="preserve">
+    <value>Minimális</value>
+</data>
+<data name="OverlayPage_OverlayDisplayLevel_Custom" xml:space="preserve">
+    <value>Egyedi</value>
+</data>
+<data name="OverlayPage_OverlayDisplayLevel_External" xml:space="preserve">
+    <value>Külső</value>
+</data>
+<data name="OverlayPage_OverlayDisplayCustomLevel_Disabled" xml:space="preserve">
+    <value>Letiltva</value>
+</data>
+<data name="OverlayPage_OverlayDisplayCustomLevel_Full" xml:space="preserve">
+    <value>Teljes</value>
+</data>
+<data name="OverlayPage_OverlayDisplayCustomLevel_Minimal" xml:space="preserve">
+    <value>Minimális</value>
+</data>
+<data name="OverlayPage_CustomSettings" xml:space="preserve">
+    <value>Egyéni beállítások</value>
+</data>
+<data name="OverlayPage_TimeLevel" xml:space="preserve">
+    <value>Időszint</value>
+</data>
+<data name="OverlayPage_TimeLevelDesc" xml:space="preserve">
+    <value>Az idő adatainak szintje.</value>
+</data>
+<data name="OverlayPage_FPSLevel" xml:space="preserve">
+    <value>FPS szint</value>
+</data>
+<data name="OverlayPage_FPSLevelDesc" xml:space="preserve">
+    <value>Az FPS adatainak szintje.</value>
+</data>
+<data name="OverlayPage_CPULevel" xml:space="preserve">
+    <value>CPU szint</value>
+</data>
+<data name="OverlayPage_CPULevelDesc" xml:space="preserve">
+    <value>A CPU adatainak szintje.</value>
+</data>
+<data name="OverlayPage_RAMLevel" xml:space="preserve">
+    <value>RAM szint</value>
+</data>
+<data name="OverlayPage_RAMLevelDesc" xml:space="preserve">
+    <value>A RAM adatainak szintje.</value>
+</data>
+<data name="OverlayPage_GPULevel" xml:space="preserve">
+    <value>GPU szint</value>
+</data>
+<data name="OverlayPage_GPULevelDesc" xml:space="preserve">
+    <value>A GPU adatainak szintje.</value>
+</data>
+<data name="OverlayPage_VRAMLevel" xml:space="preserve">
+    <value>VRAM szint</value>
+</data>
+<data name="OverlayPage_VRAMLevelDesc" xml:space="preserve">
+    <value>A VRAM szintjeinek információja.</value>
+</data>
+<data name="OverlayPage_BATTLevel" xml:space="preserve">
+    <value>Akkumulátor szintje</value>
+</data>
+<data name="OverlayPage_BATTLevelDesc" xml:space="preserve">
+    <value>Az akkumulátorral kapcsolatos információk szintje.</value>
+</data>
+<data name="ProfilesPage_ControllerLayoutDesc" xml:space="preserve">
+    <value>Virtuális vezérlő elrendezésének megváltoztatása</value>
+</data>
+<data name="ProfilesPage_CPU" xml:space="preserve">
+    <value>CPU</value>
+</data>
+<data name="ProfilesPage_EPP" xml:space="preserve">
+    <value>Energiatudatossági beállítás (EPP)</value>
+</data>
+<data name="ProfilesPage_EPPBalance" xml:space="preserve">
+    <value>CPU/GPU teljesítményegyensúly</value>
+</data>
+<data name="ProfilesPage_EPPDesc" xml:space="preserve">
+    <value>Az energiaelosztási irányelvek meghatározása a CPU és a GPU között</value>
+</data>
+<data name="ProfilesPage_GPU" xml:space="preserve">
+    <value>GPU</value>
+</data>
+<data name="ProfilesPage_PowerLimitTarget" xml:space="preserve">
+    <value>Teljesítménykorlát célpontja</value>
+</data>
+<data name="SettingsPage_NativeDisplayOrientation" xml:space="preserve">
+    <value>Természetes kijelzőorientáció</value>
+</data>
+<data name="SettingsPage_NativeDisplayOrientationDesc" xml:space="preserve">
+    <value>Néhány funkció helyes működéséhez szükséges a természetes kijelzőorientáció ismerete. Ha ez nem került megfelelően észlelésre, állítsa be a kijelző orientációját a vezérlőhöz illeszkedő orientációra, majd kattintson a Felismerésre</value>
+</data>
+<data name="SettingsPage_NativeDisplayOrientationDetect" xml:space="preserve">
+    <value>Felismerés</value>
+</data>
+<data name="SettingsPage_NativeDisplayOrientationNotSet" xml:space="preserve">
+    <value>Nincs beállítva</value>
+</data>
+<data name="QuickPerformancePage_CPUBoostMode" xml:space="preserve">
+    <value>CPU teljesítményfokozat</value>
+</data>
+<data name="QuickPerformancePage_CPUBoostModeDesc" xml:space="preserve">
+    <value>Jelenlegi CPU teljesítményfokozat beállítása</value>
+</data>
+<data name="QuickSettingsPage_DisplayResolution" xml:space="preserve">
+    <value>Kijelző felbontása</value>
+</data>
+<data name="QuickSettingsPage_DisplayResolutionDesc" xml:space="preserve">
+    <value>Fő kijelző felbontásának beállítása</value>
+</data>
+<data name="QuickPerformancePage_FanOverride" xml:space="preserve">
+    <value>Ventilátor felülírása</value>
+</data>
+<data name="QuickPerformancePage_FanOverrideDesc" xml:space="preserve">
+    <value>A ventilátor fordulatszámának felhasználó által meghatározott értékbe állítása</value>
+</data>
+<data name="QuickPerformancePage_FanOverridePercentage" xml:space="preserve">
+    <value>%</value>
+</data>
+<data name="QuickProfilesPage_CurrentProfile" xml:space="preserve">
+    <value>Jelenlegi profil:</value>
+</data>
+<data name="QuickProfilesPage_CurrentProfileDefault" xml:space="preserve">
+    <value>Alapértelmezett</value>
+</data>
+<data name="QuickProfilesPage_PowerLimitTarget" xml:space="preserve">
+    <value>Teljesítménykorlát célpontja</value>
+</data>
+<data name="SettingsPage_HideWhenLoseFocus" xml:space="preserve">
+    <value>Elrejtés fókusz elvesztésekor</value>
+</data>
+<data name="SettingsPage_HideWhenLoseFocusDesc" xml:space="preserve">
+    <value>A gyors eszközök automatikus elrejtése, amikor a felhasználó a ablakon kívül kattint</value>
+</data>
+<data name="DevicePage_PowerOptions" xml:space="preserve">
+    <value>Áramellátási beállítások</value>
+</data>
+<data name="SettingsPage_QuickToolsBackdrop" xml:space="preserve">
+    <value>Gyorseszköz háttér, nincs, mica, fülek, akril</value>
+</data>
+<data name="SettingsPage_QuickToolsOptions" xml:space="preserve">
+    <value>Gyorseszköz beállítások</value>
+</data>
+<data name="SettingsPage_QuickToolsWindowLocation" xml:space="preserve">
+    <value>Ablak helyzete</value>
+</data>
+<data name="SettingsPage_QuickToolsWindowLocationBottomLeft" xml:space="preserve">
+    <value>Bal alsó</value>
+</data>
+<data name="SettingsPage_QuickToolsWindowLocationBottomRight" xml:space="preserve">
+    <value>Jobb alsó</value>
+</data>
+<data name="SettingsPage_QuickToolsWindowLocationDesc" xml:space="preserve">
+    <value>Definiálja a gyorseszköz ablak helyzetét</value>
+</data>
+<data name="SettingsPage_QuickToolsWindowLocationTopLeft" xml:space="preserve">
+    <value>Bal felső</value>
+</data>
+<data name="SettingsPage_QuickToolsWindowLocationTopRight" xml:space="preserve">
+    <value>Jobb felső</value>
+</data>
+<data name="SettingsPage_RivaTunerStatisticsServer" xml:space="preserve">
+    <value>RivaTuner Statisztikák Szerver</value>
+</data>
+<data name="SettingsPage_RivaTunerStatisticsServerDesc" xml:space="preserve">
+    <value>Az RTSS automatikus kikapcsolása a kísérő bezárásakor</value>
+</data>
+<data name="SettingsPage_SensorNone" xml:space="preserve">
+    <value>Nincs</value>
+</data>
+<data name="SettingsPage_ThirdPartyApps" xml:space="preserve">
+    <value>Harmadik féltől származó alkalmazások</value>
+</data>
+<data name="ProfilesPage_Wrapper_Disabled" xml:space="preserve">
+    <value>Letiltva</value>
+</data>
+<data name="ProfilesPage_Wrapper_Injection" xml:space="preserve">
+    <value>Befecskendezés (ajánlott)</value>
+</data>
+<data name="ProfilesPage_Wrapper_Redirection" xml:space="preserve">
+    <value>Átirányítás</value>
+</data>
+<data name="Enum.MotionInput.AutoRollYawSwap.Desc" xml:space="preserve">
+    <value>Ez az input egyszerű joystick-ként fog működni. Ideális laptopokhoz és hajtogatható típusú hordozható eszközökhöz, automatikus gurulás és oldalazás cseréje a készülék tartásától függően (90 vagy 180 fokos nyitás).</value>
+</data>
+<data name="Enum.AYANEO2.ButtonFlags.OEM1" xml:space="preserve">
+    <value>AYA</value>
+</data>
+<data name="Enum.AYANEO2.ButtonFlags.OEM2" xml:space="preserve">
+    <value>≈</value>
+</data>
+<data name="Enum.AYANEO2.ButtonFlags.OEM3" xml:space="preserve">
+    <value>RC</value>
+</data>
+<data name="Enum.AYANEO2.ButtonFlags.OEM4" xml:space="preserve">
+    <value>LC</value>
+</data>
+<data name="Enum.AYANEOAIR.ButtonFlags.OEM1" xml:space="preserve">
+    <value>AYA</value>
+</data>
+<data name="Enum.AYANEOAIR.ButtonFlags.OEM2" xml:space="preserve">
+    <value>≈</value>
+</data>
+<data name="Enum.AYANEOAIR.ButtonFlags.OEM3" xml:space="preserve">
+    <value>RC</value>
+</data>
+<data name="Enum.AYANEOAIR.ButtonFlags.OEM4" xml:space="preserve">
+    <value>LC</value>
+</data>
+<data name="Enum.AYANEOAIRLite.ButtonFlags.OEM1" xml:space="preserve">
+    <value>AYA</value>
+</data>
+<data name="Enum.AYANEOAIRLite.ButtonFlags.OEM2" xml:space="preserve">
+    <value>≈</value>
+</data>
+<data name="Enum.AYANEOAIRLite.ButtonFlags.OEM3" xml:space="preserve">
+    <value>RC</value>
+</data>
+<data name="Enum.AYANEOAIRLite.ButtonFlags.OEM4" xml:space="preserve">
+    <value>LC</value>
+</data>
+<data name="Enum.AYANEOAIRPro.ButtonFlags.OEM1" xml:space="preserve">
+    <value>AYA</value>
+</data>
+<data name="Enum.AYANEOAIRPro.ButtonFlags.OEM2" xml:space="preserve">
+    <value>≈</value>
+</data>
+<data name="Enum.AYANEOAIRPro.ButtonFlags.OEM3" xml:space="preserve">
+    <value>RC</value>
+</data>
+<data name="Enum.AYANEOAIRPro.ButtonFlags.OEM4" xml:space="preserve">
+    <value>LC</value>
+</data>
+<data name="Enum.DS4Controller.ButtonFlags.B1" xml:space="preserve">
+    <value>Kereszt</value>
+</data>
+<data name="Enum.DS4Controller.ButtonFlags.B2" xml:space="preserve">
+    <value>Kör</value>
+</data>
+<data name="Enum.DS4Controller.ButtonFlags.B3" xml:space="preserve">
+    <value>Négyzet</value>
+</data>
+<data name="Enum.DS4Controller.ButtonFlags.B4" xml:space="preserve">
+    <value>Háromszög</value>
+</data>
+<data name="Enum.DS4Controller.ButtonFlags.Back" xml:space="preserve">
+    <value>Megosztás</value>
+</data>
+<data name="Enum.DS4Controller.ButtonFlags.Special" xml:space="preserve">
+    <value>Sony</value>
+</data>
+<data name="Enum.DS4Controller.ButtonFlags.Start" xml:space="preserve">
+    <value>Opciók</value>
+</data>
+<data name="Enum.HIDmode.DualShock4Controller" xml:space="preserve">
+    <value>Emulált DualShock 4 vezérlő</value>
+</data>
+<data name="Enum.HIDmode.NoController" xml:space="preserve">
+    <value>Nincs emulált vezérlő</value>
+</data>
+<data name="Enum.HIDmode.Xbox360Controller" xml:space="preserve">
+    <value>Emulált XBOX 360 vezérlő</value>
+</data>
+<data name="Enum.HIDstatus.Connected" xml:space="preserve">
+    <value>Csatlakoztatva</value>
+</data>
+<data name="Enum.HIDstatus.Disconnected" xml:space="preserve">
+    <value>Nem csatlakoztatva</value>
+</data>
+<data name="Enum.Input.AutoRollYawSwap" xml:space="preserve">
+    <value>Automatikus Görögörögés Cseréje</value>
+</data>
+<data name="Enum.Input.WorldSpace" xml:space="preserve">
+    <value>Világ tér</value>
+</data>
+<data name="Enum.Input.JoystickSteering" xml:space="preserve">
+    <value>Joystick vezérlés</value>
+</data>
+<data name="Enum.Input.PlayerSpace" xml:space="preserve">
+    <value>Játékos tér</value>
+</data>
+<data name="Enum.InputsHotkeyType.HC" xml:space="preserve">
+    <value>Kézikönyv Társ</value>
+</data>
+<data name="Enum.InputsHotkeyType.Overlay" xml:space="preserve">
+    <value>Az overlay</value>
+</data>
+<data name="Enum.InputsHotkeyType.Quicktools" xml:space="preserve">
+    <value>Gyors eszközök</value>
+</data>
+<data name="Enum.InputsHotkeyType.Windows" xml:space="preserve">
+    <value>Windows</value>
+</data>
+<data name="Enum.NeptuneController.ButtonFlags.B1" xml:space="preserve">
+    <value>A</value>
+</data>
+<data name="Enum.NeptuneController.ButtonFlags.B2" xml:space="preserve">
+    <value>B</value>
+</data>
+<data name="Enum.NeptuneController.ButtonFlags.B3" xml:space="preserve">
+    <value>X</value>
+</data>
+<data name="Enum.NeptuneController.ButtonFlags.B4" xml:space="preserve">
+    <value>Y</value>
+</data>
+<data name="Enum.NeptuneController.ButtonFlags.Back" xml:space="preserve">
+    <value>Nézet</value>
+</data>
+<data name="Enum.NeptuneController.ButtonFlags.Start" xml:space="preserve">
+    <value>Menü</value>
+</data>
+<data name="Enum.Output.LeftStick" xml:space="preserve">
+    <value>Bal analóg kar</value>
+</data>
+<data name="Enum.Output.RightStick" xml:space="preserve">
+    <value>Jobb analóg kar</value>
+</data>
+<data name="Enum.ProfileErrorCode.Default" xml:space="preserve">
+    <value>Ez az alapértelmezett profil. Ez a profil alkalmazódni fog azokra az alkalmazásokra, amelyeknek nincs meghatározott profiljuk. Néhány, végrehajtható állományt igénylő opció lehetséges, hogy letiltva van.</value>
+</data>
+<data name="Enum.ProfileErrorCode.MissingExecutable" xml:space="preserve">
+    <value>Hoppá. Úgy tűnik, hogy ennek a profilnak nincs végrehajtható állománya. Hogyan is lehetséges ez?</value>
+</data>
+<data name="Enum.ProfileErrorCode.MissingPath" xml:space="preserve">
+    <value>Hoppá. Úgy tűnik, hogy ennek a profilnak nincs elérési útja az alkalmazáshoz. Néhány, végrehajtható állományt igénylő opció lehetséges, hogy letiltva van.</value>
+</data>
+<data name="Enum.ProfileErrorCode.MissingPermission" xml:space="preserve">
+    <value>Hoppá. Úgy tűnik, hogy nincs megfelelő jogosultsága a profil tartalmának módosításához ebben az alkalmazásban. Győződjön meg róla, hogy adminisztrátori módban indította-e el ezt a programot.</value>
+</data>
+<data name="Enum.ProfileErrorCode.None" xml:space="preserve">
+    <value>Nincs itt semmi látnivaló.</value>
+</data>
+<data name="Enum.ProfileErrorCode.Running" xml:space="preserve">
+    <value>Hoppá. Úgy tűnik, hogy ez a profil fut. Néhány, végrehajtható állományt igénylő opció lehetséges, hogy letiltva van.</value>
+</data>
+<data name="Enum.QualityOfServiceLevel.Default" xml:space="preserve">
+    <value>Alapértelmezett</value>
+</data>
+<data name="Enum.QualityOfServiceLevel.Eco" xml:space="preserve">
+    <value>Gazdaságos</value>
+</data>
+  <data name="Enum.QualityOfServiceLevel.High" xml:space="preserve">
+    <value>Magas</value>
+  </data>
+  <data name="Enum.ServiceStartMode.Automatic" xml:space="preserve">
+    <value>Automatikus</value>
+  </data>
+  <data name="Enum.ServiceStartMode.Disabled" xml:space="preserve">
+    <value>Letiltva</value>
+  </data>
+  <data name="Enum.ServiceStartMode.Manual" xml:space="preserve">
+    <value>Kézi</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.B1" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.B2" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.B3" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.B4" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.Back" xml:space="preserve">
+    <value>Kilépés</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.L1" xml:space="preserve">
+    <value>LB</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.R1" xml:space="preserve">
+    <value>RB</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.Special" xml:space="preserve">
+    <value>Útmutató</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.Start" xml:space="preserve">
+    <value>Menü</value>
+  </data>
+  <data name="Enum.MotionInput.WorldSpace.Desc" xml:space="preserve">
+    <value>A bemenet a játékvilág tengelyeihez van hozzárendelve, így a játékos karakter orientációjától függetlenül egyenletes irányítást biztosít.</value>
+  </data>
+  <data name="Enum.MotionInput.JoystickSteering.Desc" xml:space="preserve">
+    <value>Ez a bemenet egy kormány vezérlésére vagy autóverseny játékhoz optimalizált joystickként fog működni.</value>
+  </data>
+  <data name="Enum.MotionInput.PlayerSpace.Desc" xml:space="preserve">
+    <value>A bemenet igazodik a játékos karakter orientációjához a játékban, lehetővé téve az intuitív célozást és mozgást.</value>
+  </data>
+  <data name="Enum.InputsHotkeyType.Handheld" xml:space="preserve">
+    <value>Kezes kísérő</value>
+  </data>
+  <data name="Enum.SteamDeck.ButtonFlags.OEM1" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="Enum.NeptuneController.ButtonFlags.Special" xml:space="preserve">
+    <value>STEAM</value>
+  </data>
+  <data name="Enum.ROGAlly.ButtonFlags.OEM1" xml:space="preserve">
+    <value>Parancsközpont</value>
+  </data>
+  <data name="Enum.ROGAlly.ButtonFlags.OEM2" xml:space="preserve">
+    <value>Fegyvertár doboz</value>
+  </data>
+  <data name="Enum.ROGAlly.ButtonFlags.OEM3" xml:space="preserve">
+    <value>M1</value>
+  </data>
+  <data name="Enum.AYANEO2021Pro.ButtonFlags.OEM1" xml:space="preserve">
+    <value>Győzelem</value>
+  </data>
+  <data name="Enum.AYANEO2021Pro.ButtonFlags.OEM2" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Enum.AYANEO2021Pro.ButtonFlags.OEM3" xml:space="preserve">
+    <value>Billentyűzet</value>
+  </data>
+  <data name="Enum.InputsHotkeyType.Custom" xml:space="preserve">
+    <value>Egyedi</value>
+  </data>
+  <data name="Enum.InputsHotkeyType.Device" xml:space="preserve">
+    <value>Eszköz</value>
+  </data>
+  <data name="Enum.MotionInput.AutoRollYawSwap" xml:space="preserve">
+    <value>Automatikus görgetés-tengelycserélés</value>
+  </data>
+  <data name="Enum.MotionInput.WorldSpace" xml:space="preserve">
+    <value>Világ tér</value>
+  </data>
+  <data name="Enum.MotionInput.JoystickSteering" xml:space="preserve">
+    <value>Joystick kormányzás</value>
+  </data>
+  <data name="Enum.MotionInput.PlayerSpace" xml:space="preserve">
+    <value>Játékos tér</value>
+  </data>
+  <data name="Enum.MotionOutput.LeftStick" xml:space="preserve">
+    <value>Bal analóg kar</value>
+  </data>
+  <data name="Enum.MotionOutput.RightStick" xml:space="preserve">
+    <value>Jobb analóg kar</value>
+  </data>
+  <data name="Enum.XInputController.AxisLayoutFlags.L2" xml:space="preserve">
+    <value>L2</value>
+  </data>
+  <data name="Enum.XInputController.AxisLayoutFlags.LeftThumb" xml:space="preserve">
+    <value>Bal hüvelykujj</value>
+  </data>
+  <data name="Enum.XInputController.AxisLayoutFlags.R2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="Enum.XInputController.AxisLayoutFlags.RightThumb" xml:space="preserve">
+    <value>Jobb hüvelykujj</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.B6" xml:space="preserve">
+    <value>B6</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.B7" xml:space="preserve">
+    <value>B7</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.B8" xml:space="preserve">
+    <value>B8</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.DPadDown" xml:space="preserve">
+    <value>DPad Le</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.DPadLeft" xml:space="preserve">
+    <value>DPad Bal</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.DPadRight" xml:space="preserve">
+    <value>DPad Jobb</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.DPadUp" xml:space="preserve">
+    <value>DPad Fel</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.L2" xml:space="preserve">
+    <value>L2</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.L3" xml:space="preserve">
+    <value>L3</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.L4" xml:space="preserve">
+    <value>L4</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.L5" xml:space="preserve">
+    <value>L5</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.LeftThumb" xml:space="preserve">
+    <value>Bal hüvelykujj</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.LeftThumbDown" xml:space="preserve">
+    <value>Bal hüvelykujj Le</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.LeftThumbLeft" xml:space="preserve">
+    <value>Bal hüvelykujj Balra</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.LeftThumbRight" xml:space="preserve">
+    <value>Bal hüvelykujj Jobbra</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.LeftThumbUp" xml:space="preserve">
+    <value>Bal hüvelykujj Fel</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM1" xml:space="preserve">
+    <value>OEM1</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM2" xml:space="preserve">
+    <value>OEM2</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM3" xml:space="preserve">
+    <value>OEM3</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM4" xml:space="preserve">
+    <value>OEM4</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM5" xml:space="preserve">
+    <value>OEM5</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM6" xml:space="preserve">
+    <value>OEM6</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM7" xml:space="preserve">
+    <value>OEM7</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM8" xml:space="preserve">
+    <value>OEM8</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM9" xml:space="preserve">
+    <value>OEM9</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM10" xml:space="preserve">
+    <value>OEM10</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM11" xml:space="preserve">
+    <value>OEM11</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM12" xml:space="preserve">
+    <value>OEM12</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM13" xml:space="preserve">
+    <value>OEM13</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM14" xml:space="preserve">
+    <value>OEM14</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM15" xml:space="preserve">
+    <value>OEM15</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM16" xml:space="preserve">
+    <value>OEM16</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM17" xml:space="preserve">
+    <value>OEM17</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM18" xml:space="preserve">
+    <value>OEM18</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM19" xml:space="preserve">
+    <value>OEM19</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.OEM20" xml:space="preserve">
+    <value>OEM20</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.R2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.R3" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.R4" xml:space="preserve">
+    <value>R4</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.R5" xml:space="preserve">
+    <value>R5</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.RightThumb" xml:space="preserve">
+    <value>Jobb hüvelykujj</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.RightThumbDown" xml:space="preserve">
+    <value>Jobb hüvelykujj Le</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.RightThumbLeft" xml:space="preserve">
+    <value>Jobb hüvelykujj Balra</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.RightThumbRight" xml:space="preserve">
+    <value>Jobb hüvelykujj Jobbra</value>
+  </data>
+  <data name="Enum.XInputController.ButtonFlags.RightThumbUp" xml:space="preserve">
+    <value>Jobb hüvelykujj Fel</value>
+  </data>
+  <data name="Enum.KeyFlags.Space" xml:space="preserve">
+    <value>Tér</value>
+</data>
+<data name="Enum.KeyFlags.T" xml:space="preserve">
+    <value>T</value>
+</data>
+<data name="Enum.KeyFlags.Tab" xml:space="preserve">
+    <value>Tab</value>
+</data>
+<data name="Enum.KeyFlags.U" xml:space="preserve">
+    <value>U</value>
+</data>
+<data name="Enum.KeyFlags.V" xml:space="preserve">
+    <value>V</value>
+</data>
+<data name="Enum.KeyFlags.W" xml:space="preserve">
+    <value>W</value>
+</data>
+<data name="Enum.KeyFlags.X" xml:space="preserve">
+    <value>X</value>
+</data>
+<data name="Enum.KeyFlags.Y" xml:space="preserve">
+    <value>Y</value>
+</data>
+<data name="Enum.KeyFlags.Z" xml:space="preserve">
+    <value>Z</value>
+</data>
+<data name="Enum.MotionOuput.LeftStick" xml:space="preserve">
+    <value>Bal Joystick</value>
+</data>
+<data name="Enum.MotionOuput.MoveCursor" xml:space="preserve">
+    <value>Ugrókurzor</value>
+</data>
+<data name="Enum.MotionOuput.RightStick" xml:space="preserve">
+    <value>Jobb Joystick</value>
+</data>
+<data name="Enum.MotionOuput.ScrollWheel" xml:space="preserve">
+    <value>Görgetőkerék</value>
+</data>
+<data name="Enum.XInputController.AxisLayoutFlags.LeftStick" xml:space="preserve">
+    <value>Bal Joystick</value>
+</data>
+<data name="Enum.XInputController.AxisLayoutFlags.RightStick" xml:space="preserve">
+    <value>Jobb Joystick</value>
+</data>
+<data name="Controller_Connect" xml:space="preserve">
+    <value>Csatlakoztatás</value>
+</data>
+<data name="Controller_Disconnect" xml:space="preserve">
+    <value>Kapcsolat megszüntetése</value>
+</data>
+<data name="Controller_Hide" xml:space="preserve">
+    <value>Elrejtés</value>
+</data>
+<data name="Controller_Unhide" xml:space="preserve">
+    <value>Megjelenítés</value>
+</data>
+<data name="Controller_Virtual" xml:space="preserve">
+    <value>Virtuális </value>
+</data>
+<data name="MainWindow_Back" xml:space="preserve">
+    <value>Vissza</value>
+</data>
+<data name="MainWindow_Exit" xml:space="preserve">
+    <value>Kilépés</value>
+</data>
+<data name="MainWindow_MainWindow" xml:space="preserve">
+    <value>Főablak</value>
+</data>
+<data name="MainWindow_Navigate" xml:space="preserve">
+    <value>Navigáció</value>
+</data>
+<data name="MainWindow_QuickTools" xml:space="preserve">
+    <value>Gyors eszközök</value>
+</data>
+<data name="MainWindow_Select" xml:space="preserve">
+    <value>Kiválasztás</value>
+</data>
+<data name="Hint_SteamNeptuneReadme" xml:space="preserve">
+    <value>Indítsa újra a Steamet, hogy a Handheld Companion automatikusan módosíthassa a Steam Desktop elrendezést, és megakadályozza a dupla bevitelt</value>
+</data>
+<data name="Hint_SteamNeptuneDesktopDesc" xml:space="preserve">
+    <value>A Steam már fut, és alkalmazva van a Steam Desktop elrendezés. Ez dupla bevitelt eredményezhet</value>
+</data>
+<data name="Hint_SteamNeptuneDesktop" xml:space="preserve">
+    <value>A Steam Desktop elrendezése alkalmazva van</value>
+</data>
+<data name="Hint_SteamXboxDriversReadme" xml:space="preserve">
+    <value>Talán érdemes eltávolítani a Steam Xbox Controller Enhanced Features Driver-t</value>
+</data>
+<data name="Hint_SteamXboxDriversDesc" xml:space="preserve">
+    <value>A Steam Xbox Controller Enhanced Features Driver telepítve van, és megszakítja a HidHide képességeit a fizikai vezérlő elrejtésére/megjelenítésére</value>
+</data>
+<data name="Hint_SteamXboxDrivers" xml:space="preserve">
+    <value>A Steam Xbox Controller Enhanced Features Driver telepítve van</value>
+</data>
+<data name="DevicePage_Device" xml:space="preserve">
+    <value>Eszköz</value>
+</data>
+<data name="MainWindow_navDevice" xml:space="preserve">
+    <value>Eszköz</value>
+</data>
+<data name="XInputController_Warning_BTH" xml:space="preserve">
+    <value>Kérjük, indítsa újra a vezérlőt a vezérlő gomb lenyomásával a párosítás befejezéséhez.</value>
+</data>
+<data name="DevicePage_DynamicLighting" xml:space="preserve">
+    <value>Effektek</value>
+</data>
+<data name="DevicePage_DynamicLightingDesc" xml:space="preserve">
+    <value>Válasszon szín témákat és effekteket az Ön világításához</value>
+</data>
+<data name="DevicePage_DynamicLighting_Ambilight" xml:space="preserve">
+    <value>Ambilight</value>
+</data>
+<data name="DevicePage_DynamicLighting_SolidColor" xml:space="preserve">
+    <value>Egyszínű</value>
+</data>
+<data name="DevicePage_DynamicLighting_Brightness" xml:space="preserve">
+    <value>Fényerő</value>
+</data>
+<data name="DevicePage_DynamicLighting_BrightnessDesc" xml:space="preserve">
+    <value>Változtassa meg a világítás fényerejét</value>
+</data>
+<data name="DevicePage_DynamicLighting_MainColorSelection" xml:space="preserve">
+    <value>Fő szín</value>
+</data>
+<data name="DevicePage_DynamicLighting_None" xml:space="preserve">
+    <value>Nincs</value>
+</data>
+<data name="DevicePage_AmbilightVerticalBlackBarDetection" xml:space="preserve">
+    <value>Ambilight függőleges fekete sáv érzékelése</value>
+</data>
+<data name="DevicePage_AmbilightVerticalBlackBarDetectionDesc" xml:space="preserve">
+    <value>Függőleges fekete sáv érzékelése 4:3 képarányú játékokhoz vagy videókhoz</value>
+</data>
+<data name="DevicePage_DynamicLighting_Breathing" xml:space="preserve">
+    <value>Légzés</value>
+</data>
+<data name="DevicePage_DynamicLighting_Gradient" xml:space="preserve">
+    <value>Gradiens</value>
+</data>
+<data name="DevicePage_DynamicLighting_Rainbow" xml:space="preserve">
+    <value>Szivárvány</value>
+</data>
+<data name="DevicePage_DynamicLighting_Wave" xml:space="preserve">
+    <value>Hullám</value>
+</data>
+<data name="DevicePage_DynamicLighting_Wheel" xml:space="preserve">
+    <value>Kerék</value>
+</data>
+<data name="DevicePage_DynamicLighting_MatchAccentColor" xml:space="preserve">
+    <value>Illő az ablakok hangsúly színéhez</value>
+</data>
+<data name="DevicePage_DynamicLighting_SecondColorSelection" xml:space="preserve">
+    <value>Második szín</value>
+</data>
+<data name="DevicePage_DynamicLighting_EffectSpeed" xml:space="preserve">
+    <value>Effekt sebesség</value>
+</data>
+<data name="DevicePage_DynamicLighting_EffectDirection" xml:space="preserve">
+    <value>Irány</value>
+</data>
+<data name="MainWindow_navPerformance" xml:space="preserve">
+    <value>Teljesítmény</value>
+</data>
+<data name="PerformancePage_Device" xml:space="preserve">
+    <value>Teljesítmény</value>
+</data>
+<data name="ProfilesPage_CPUMhz" xml:space="preserve">
+    <value>CPU órajele maximális frekvenciája</value>
+</data>
+<data name="QuickPerformancePage_CPUControl" xml:space="preserve">
+    <value>Manuális CPU órajel vezérlés</value>
+</data>
+<data name="QuickPerformancePage_CPUControlDesc" xml:space="preserve">
+    <value>Állítsa be a CPU-t fix órajelre</value>
+</data>
+<data name="QuickPerformancePage_CPUUnit" xml:space="preserve">
+    <value> MHz</value>
+</data>
+<data name="PowerProfileDefaultDescription" xml:space="preserve">
+    <value>Alapértelmezett teljesítmény- és ventilátorsebesség az optimális teljesítmény, hőmérséklet, zaj és akkumulátor-élettartam érdekében.</value>
+</data>
+<data name="PowerProfileDefaultName" xml:space="preserve">
+    <value>Alapértelmezett</value>
+</data>
+<data name="PowerProfileManualDescription" xml:space="preserve">
+    <value>Felhasználó által meghatározott teljesítmény- és ventilátorsebesség.</value>
+</data>
+<data name="PowerProfileManualName" xml:space="preserve">
+    <value>Manuális mód: {0}</value>
+</data>
+<data name="PowerProfileROGAllyBetterPerformanceDesc" xml:space="preserve">
+    <value>Teljesítmény, hőmérséklet és akusztika egyensúlya bármely helyzetben.</value>
+</data>
+<data name="PowerProfileROGAllyBetterPerformance" xml:space="preserve">
+    <value>Teljesítmény</value>
+</data>
+<data name="PowerProfileROGAllyBetterBatteryDesc" xml:space="preserve">
+    <value>Korlátozza a CPU és GPU teljesítményét, de csendes zajszintet tart.</value>
+</data>
+<data name="PowerProfileROGAllyBetterBattery" xml:space="preserve">
+    <value>Csendes</value>
+</data>
+<data name="PowerProfileROGAllyBestPerformanceDesc" xml:space="preserve">
+    <value>Maximalizálja a CPU és GPU teljesítményét nagy teljesítményű játékok és munka esetén, maximális légáramlással a ventilátorokból.</value>
+</data>
+<data name="PowerProfileROGAllyBestPerformance" xml:space="preserve">
+    <value>Turbo</value>
+</data>
+<data name="QuickDevicePage_Desc" xml:space="preserve">
+    <value>Beállítások, kijelzőprofil</value>
+</data>
+<data name="QuickDevicePage_Title" xml:space="preserve">
+    <value>Eszköz</value>
+</data>
+<data name="QuickHomePage_Title" xml:space="preserve">
+    <value>Kezdőlap</value>
+</data>
+<data name="QuickPerformancePage_Title" xml:space="preserve">
+    <value>Teljesítmény</value>
+</data>
+<data name="QuickProfilesPage_Desc" xml:space="preserve">
+    <value>Teljesítmény, mozgásvezérlés, grafika</value>
+</data>
+<data name="QuickProfilesPage_Title" xml:space="preserve">
+    <value>Profilok</value>
+</data>
+<data name="QuickSettingsPage_Desc" xml:space="preserve">
+    <value>Preferált műveletek</value>
+</data>
+<data name="QuickSettingsPage_Title" xml:space="preserve">
+    <value>Műveletek</value>
+</data>
+<data name="QuickSuspenderPage_Desc" xml:space="preserve">
+    <value>Alkalmazások felfüggesztése és újraindítása</value>
+</data>
+<data name="QuickSuspenderPage_Title" xml:space="preserve">
+    <value>Felfüggesztő</value>
+</data>
+<data name="QuickSettingsPage_DisplayFrequency" xml:space="preserve">
+    <value>Frissítési gyakoriság</value>
+</data>
+<data name="QuickSettingsPage_DisplayFrequencyDesc" xml:space="preserve">
+    <value>Állítsa be a fő frissítési gyakoriságot</value>
+</data>
+<data name="ProfilesPage_FanSettings" xml:space="preserve">
+    <value>Ventilátor beállítások</value>
+</data>
+<data name="ProfilesPage_FanSettingsDesc" xml:space="preserve">
+    <value>Változtassa meg a ventilátor beállításokat</value>
+</data>
+<data name="ProfilesPage_CreatePowerProfile" xml:space="preserve">
+    <value>Új teljesítmény profil létrehozása</value>
+</data>
+<data name="ProfilesPage_CreatePowerProfileButton" xml:space="preserve">
+    <value>Teljesítmény profil létrehozása</value>
+</data>
+<data name="ProfilesPage_DeletePowerProfileButton" xml:space="preserve">
+    <value>Teljesítmény profil törlése</value>
+</data>
+<data name="MainWindow_Toggle" xml:space="preserve">
+    <value>Kapcsoló</value>
+</data>
+<data name="XInputController_Warning_USB" xml:space="preserve">
+    <value>Kérjük, várjon egy pillanatot, amíg újraindítjuk a vezérlőt.</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.B5" xml:space="preserve">
+    <value>M2</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.L4" xml:space="preserve">
+    <value>Y1</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.L5" xml:space="preserve">
+    <value>Y2</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.R4" xml:space="preserve">
+    <value>M3</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.R5" xml:space="preserve">
+    <value>Y3</value>
+</data>
+<data name="Enum.LegionGo.ButtonFlags.OEM1" xml:space="preserve">
+    <value>LegionR</value>
+</data>
+<data name="Enum.LegionGo.ButtonFlags.OEM2" xml:space="preserve">
+    <value>LegionL</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.B6" xml:space="preserve">
+    <value>Egér görgő gomb lenyomása</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.B7" xml:space="preserve">
+    <value>Egér görgő felfelé</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.B8" xml:space="preserve">
+    <value>Egér görgő lefelé</value>
+</data>
+<data name="IController_ControllerIndex" xml:space="preserve">
+    <value>Játékvezérlő: {0}</value>
+</data>
+<data name="Enum.ROGAlly.ButtonFlags.OEM4" xml:space="preserve">
+    <value>M2</value>
+</data>
+<data name="LayoutPage_SetAsDefault" xml:space="preserve">
+    <value>Állítsa be alapértelmezett elrendezésként</value>
+</data>
+<data name="InputsHotkey_shortcutChangeHIDMode" xml:space="preserve">
+    <value>Váltás emulált vezérlő típusa között</value>
+</data>
+<data name="InputsHotkey_shortcutChangeHIDModeDesc" xml:space="preserve">
+    <value>Váltás Xbox 360 és Dualshock 4 emulált vezérlők között</value>
+</data>
+<data name="ProfilesPage_EmulatedController" xml:space="preserve">
+    <value>Emulált vezérlő típusa</value>
+</data>
+<data name="ProfilesPage_EmulatedControllerDefault" xml:space="preserve">
+    <value>Alapértelmezett</value>
+</data>
+<data name="ProfilesPage_EmulatedControllerDS4" xml:space="preserve">
+    <value>Emulált DualShock 4 vezérlő</value>
+</data>
+<data name="ProfilesPage_EmulatedControllerXbox" xml:space="preserve">
+    <value>Emulált XBOX 360 vezérlő</value>
+</data>
+<data name="ProfilesPage_EmulatedControllerDesc" xml:space="preserve">
+    <value>Az emulált vezérlő típusa, ami aktív profil esetén használatban van</value>
+</data>
+<data name="ControllerPage_ControllerManagement" xml:space="preserve">
+    <value>Vezérlő kezelése</value>
+</data>
+<data name="ControllerPage_ControllerManagementDesc" xml:space="preserve">
+    <value>Vezérlők automatikus kezelése nagyobb kompatibilitás érdekében</value>
+</data>
+<data name="ControllerPage_LegionGoPassthrough" xml:space="preserve">
+    <value>Érintőpad áteresztése</value>
+</data>
+<data name="ControllerPage_LegionGoPassthroughDesc" xml:space="preserve">
+    <value>Lehetővé teszi az eszköz érintőpadjának használatát egy átlagos egérként, bármilyen szoftveres feldolgozás vagy leképezés nélkül</value>
+</data>
+<data name="ControllerPage_Close" xml:space="preserve">
+    <value>Bezárás</value>
+</data>
+<data name="ControllerPage_TryAgain" xml:space="preserve">
+    <value>Próbálja újra</value>
+</data>
+<data name="Hint_RogAllyServiceCheck" xml:space="preserve">
+    <value>A ASUS szolgáltatások futnak</value>
+</data>
+<data name="Hint_RogAllyServiceCheckReadme" xml:space="preserve">
+    <value>Kapcsolja ki az ASUS szolgáltatásokat, hogy az alkalmazás zökkenőmentesen fusson és konfliktusok nélkül</value>
+</data>
+<data name="Hint_RogAllyServiceCheckDesc" xml:space="preserve">
+    <value>Az ASUS szolgáltatások már futnak az eszközén. Ez befolyásolhatja az alkalmazást</value>
+</data>
+<data name="Hint_RogAllyServiceCheckAction" xml:space="preserve">
+    <value>ASUS szolgáltatások kikapcsolása</value>
+</data>
+<data name="Hint_SteamNeptuneAction" xml:space="preserve">
+    <value>Indítsa újra a Steamet</value>
+</data>
+<data name="MainWindow_navNotifications" xml:space="preserve">
+    <value>Értesítések</value>
+</data>
+<data name="NotificationsPage_NothingToSee" xml:space="preserve">
+    <value>Még nincsenek értesítések</value>
+</data>
+<data name="NotificationsPage_NothingToSeeDesc" xml:space="preserve">
+    <value>Jelenleg nincsenek értesítései.</value>
+</data>
+<data name="ControllerPage_HIDManagedByProfileAction" xml:space="preserve">
+    <value>Menjen a profilbeállításokhoz, hogy megváltoztassa a játékonkénti emulált vezérlő típus beállításait.</value>
+</data>
+<data name="ControllerPage_HIDManagedByProfileDesc" xml:space="preserve">
+    <value>Az emulált vezérlő típusát a jelenleg alkalmazott játékprofil kezeli.</value>
+</data>
+<data name="ControllerPage_HIDManagedByProfileWarning" xml:space="preserve">
+    <value>Az emulált vezérlőt a profil kezeli</value>
+</data>
+<data name="Hint_CoreIsolationCheck" xml:space="preserve">
+    <value>A magizolációs funkciók be vannak kapcsolva</value>
+</data>
+<data name="Hint_CoreIsolationCheckAction" xml:space="preserve">
+    <value>Magizoláció kikapcsolása</value>
+</data>
+<data name="Hint_CoreIsolationCheckDesc" xml:space="preserve">
+    <value>A rendszer magizolációs funkciói be vannak kapcsolva, ezért a TDP olvasás/írás és a ventilátorvezérlés le van tiltva</value>
+</data>
+<data name="Hint_CoreIsolationCheckReadme" xml:space="preserve">
+    <value>Kapcsolja ki a magizolációt, és indítsa újra a rendszert a TDP manipulációk engedélyezéséhez</value>
+</data>
+<data name="ProfilesPage_SubProfiles" xml:space="preserve">
+    <value>Alprofilok</value>
+</data>
+<data name="ProfilesPage_SubProfilesDesc" xml:space="preserve">
+    <value>Különböző profilok hozzáadása ugyanahhoz a játékhoz</value>
+</data>
+<data name="QuickProfilesPage_SubProfilesDesc" xml:space="preserve">
+    <value>Válasszon egy alprofilként alkalmazandó alprofilokat</value>
+</data>
+<data name="InputsHotkey_nextSubProfile" xml:space="preserve">
+    <value>Következő alprofil kiválasztása</value>
+</data>
+<data name="InputsHotkey_nextSubProfileDesc" xml:space="preserve">
+    <value>A következő alprofil alkalmazása az aktuális játékhoz</value>
+</data>
+<data name="InputsHotkey_previousSubProfile" xml:space="preserve">
+    <value>Előző alprofil kiválasztása</value>
+</data>
+<data name="InputsHotkey_previousSubProfileDesc" xml:space="preserve">
+    <value>Az előző alprofil alkalmazása az aktuális játékhoz</value>
+</data>
+<data name="DevicePage_FullFanSpeedDesc" xml:space="preserve">
+    <value>Állítsa be a ventilátort maximális sebességre</value>
+</data>
+<data name="DevicePage_FullFanSpeedText" xml:space="preserve">
+    <value>Ventilátor maximális sebesség felülbírálás</value>
+</data>
+<data name="Hint_AMD_IntegerScalingCheck" xml:space="preserve">
+    <value>Az egész számú nagyítás nem elérhető</value>
+</data>
+<data name="Hint_AMD_IntegerScalingCheckAction" xml:space="preserve">
+    <value>Egész számú nagyítás telepítése</value>
+</data>
+<data name="Hint_AMD_IntegerScalingCheckDesc" xml:space="preserve">
+    <value>Az egész számú nagyítás funkció nincs telepítve, ezért nem lehet engedélyezni vagy letiltani</value>
+</data>
+<data name="Hint_AMD_IntegerScalingCheckReadme" xml:space="preserve">
+    <value>Néhány parancsot ki kell hajtanunk az egész számú nagyítás telepítéséhez a rendszerén</value>
+</data>
+<data name="QuickOverlayPage_Desc" xml:space="preserve">
+    <value>Kezelje a képernyőre kivetített átfedést</value>
+</data>
+<data name="QuickOverlayPage_Title" xml:space="preserve">
+    <value>Átfedés</value>
+</data>
+<data name="ProfilesPage_DefaultDeviceProfile" xml:space="preserve">
+    <value>Ez egy alapértelmezett eszközprofil, amelyet nem lehet szerkeszteni. Ezek összehasonlíthatók az eszköz eredeti szoftveré által nyújtott profilokkal.</value>
+</data>
+<data name="PowerProfileLegionGoBetterBattery" xml:space="preserve">
+    <value>Hatékonyság</value>
+</data>
+<data name="PowerProfileLegionGoBetterBatteryDesc" xml:space="preserve">
+    <value>Beállítás hasonló az Hatékonyság üzemmódhoz az LS-ben. TDP korlát: 8W</value>
+</data>
+<data name="PowerProfileLegionGoBetterPerformance" xml:space="preserve">
+    <value>Kiegyensúlyozott</value>
+</data>
+<data name="PowerProfileLegionGoBetterPerformanceDesc" xml:space="preserve">
+    <value>Beállítás hasonló a Kiegyensúlyozott üzemmódhoz az LS-ben. TDP korlát: 15W</value>
+</data>
+<data name="PowerProfileLegionGoBestPerformance" xml:space="preserve">
+    <value>Teljesítmény</value>
+</data>
+<data name="PowerProfileLegionGoBestPerformanceDesc" xml:space="preserve">
+    <value>Beállítás hasonló a Teljesítmény üzemmódhoz az LS-ben. TDP korlát: 20W</value>
+</data>
+<data name="ProfilesPage_DefaultProfile" xml:space="preserve">
+    <value>Ez az alapértelmezett beállítás, a ventilátorsebesség görbéje nem módosítható ebben a beállításban.</value>
+</data>
+<data name="Hint_LegionGoServices" xml:space="preserve">
+    <value>A Legion Space feladatok és szolgáltatások aktívak</value>
+</data>
+<data name="Hint_LegionGoServicesAction" xml:space="preserve">
+    <value>Legion Space kikapcsolása</value>
+</data>
+<data name="Hint_LegionGoServicesDesc" xml:space="preserve">
+    <value>A Legion Space feladatok és szolgáltatások már aktívak az eszközén. Ez problémákat okozhat az alkalmazás használatakor.</value>
+</data>
+<data name="Hint_LegionGoServicesReadme" xml:space="preserve">
+    <value>Kapcsolja ki a Legion Space feladatokat és szolgáltatásokat, hogy az alkalmazás zökkenőmentesen fusson és konfliktusok nélkül</value>
+</data>
+<data name="DevicePage_UseSecondColor" xml:space="preserve">
+    <value>Használja a második színt</value>
+</data>
+<data name="ProfilesPage_GraphicsSettings" xml:space="preserve">
+    <value>Grafikai beállítások</value>
+</data>
+<data name="ProfilesPage_GraphicsSettingsDesc" xml:space="preserve">
+    <value>Változtassa meg a grafikai beállításokat</value>
+</data>
+<data name="PowerProfilesPage_PresetSelection" xml:space="preserve">
+    <value>Beállítások kiválasztása</value>
+</data>
+<data name="PowerProfilesPage_PresetSelectionDesc" xml:space="preserve">
+    <value>Válassza ki azon beállításokat, amelyeket szeretne módosítani</value>
+</data>
+<data name="PowerProfilesPage_DevicePresets" xml:space="preserve">
+    <value>Eszközbeállítások</value>
+</data>
+<data name="PowerProfilesPage_UserPresets" xml:space="preserve">
+    <value>Felhasználói beállítások</value>
+</data>
+<data name="ProfilesPage_PowerSettings" xml:space="preserve">
+    <value>Áramellátási beállítások</value>
+</data>
+<data name="QuickSettingsPage_ResolutionOverrideWarning" xml:space="preserve">
+    <value>A felbontást jelenleg profil felülírja</value>
+</data>
+<data name="SettingsPage_QuickToolsWindowLocationLeft" xml:space="preserve">
+    <value>Bal</value>
+</data>
+<data name="SettingsPage_QuickToolsWindowLocationRight" xml:space="preserve">
+    <value>Jobb</value>
+</data>
+<data name="InputsHotkey_OnScreenDisplayToggle" xml:space="preserve">
+    <value>Képernyőn átfedés</value>
+</data>
+<data name="InputsHotkey_OnScreenDisplayToggleDesc" xml:space="preserve">
+    <value>Képernyőn átfedés be-/kikapcsolása</value>
+</data>
+<data name="ProfilesPage_GPUScaling" xml:space="preserve">
+    <value>GPU nagyítás</value>
+</data>
+<data name="ProfilesPage_GPUScalingDesc" xml:space="preserve">
+    <value>A GPU nagyítja fel az alsó felbontásokat, hogy illeszkedjenek a kijelzőhöz</value>
+</data>
+<data name="ProfilesPage_ImageSharpening" xml:space="preserve">
+    <value>Képélesítés</value>
+</data>
+<data name="ProfilesPage_ImageSharpeningDesc" xml:space="preserve">
+    <value>Növeli a vizuális részleteket</value>
+</data>
+<data name="ProfilesPage_IS" xml:space="preserve">
+    <value>Egész számú nagyítás</value>
+</data>
+<data name="ProfilesPage_ISDesc" xml:space="preserve">
+    <value>A felbontás nagyítása úgy, hogy minden pixelt egy egész számmal szorozunk</value>
+</data>
+<data name="ProfilesPage_ResolutionScale" xml:space="preserve">
+    <value>Felbontás méretezése</value>
+</data>
+<data name="ProfilesPage_ResolutionScaleDesc" xml:space="preserve">
+    <value>A felbontás mérete, amelyre az egész számú nagyítás vonatkozik</value>
+</data>
+<data name="ProfilesPage_RSR" xml:space="preserve">
+    <value>Radeon Super Resolution</value>
+</data>
+<data name="ProfilesPage_RSRDesc" xml:space="preserve">
+    <value>Driverben alapuló nagyítási funkció gyorsabb képkockasebesség érdekében</value>
+</data>
+<data name="ProfilesPage_ScalingMode" xml:space="preserve">
+    <value>Méretezési mód</value>
+</data>
+<data name="ProfilesPage_ScalingModeDesc" xml:space="preserve">
+    <value>Válassza ki a képek nyújtásához és pozícionálásához használt módszert a kijelzőhöz való illeszkedéshez</value>
+</data>
+<data name="ProfilesPage_ScalingMode_Center" xml:space="preserve">
+    <value>Középre</value>
+</data>
+<data name="ProfilesPage_ScalingMode_FullPanel" xml:space="preserve">
+    <value>Teljes panel</value>
+</data>
+<data name="ProfilesPage_ScalingMode_PreserveAspectRatio" xml:space="preserve">
+    <value>Arány megtartása</value>
+</data>
+<data name="ProfilesPage_Sharpen" xml:space="preserve">
+    <value>Élesítés hatása</value>
+</data>
+<data name="QuickSettingsPage_ResScaleExclusiveFullscreen" xml:space="preserve">
+    <value>A 1/1 csak Kizárólagos Teljes képernyőt támogatja.</value>
+</data>
+<data name="SettingsPage_UISounds" xml:space="preserve">
+    <value>UI hangok engedélyezése</value>
+</data>
+<data name="SettingsPage_UISoundsDesc" xml:space="preserve">
+    <value>Engedélyezze vagy tiltsa le a UI hangokat a navigáció során</value>
+</data>
+<data name="ProfilesPage_ResolutionScaleType" xml:space="preserve">
+    <value>Nagyítási típus</value>
+</data>
+<data name="ProfilesPage_ResolutionScaleTypeDesc" xml:space="preserve">
+    <value>Válassza ki a nagyítási típust az arány alkalmazásához</value>
+</data>
+<data name="ProfilesPage_ResolutionScaleTypeInteger" xml:space="preserve">
+    <value>Egész számú nagyítás</value>
+</data>
+<data name="ProfilesPage_ResolutionScaleTypeNearest" xml:space="preserve">
+    <value>Legközelebbi szomszéd</value>
+</data>
+<data name="ControllerPage_PhysicalDevicesDesc" xml:space="preserve">
+    <value>csatlakoztatva a számítógéphez</value>
+</data>
+<data name="ControllerPage_VirtualDevices" xml:space="preserve">
+    <value>Virtuális vezérlő</value>
+</data>
+<data name="ControllerPage_VirtualDevicesDesc" xml:space="preserve">
+    <value>az, amit a számítógép használ</value>
+</data>
+<data name="ControllerPage_VirtualStatus" xml:space="preserve">
+    <value>Vezérlő állapota</value>
+</data>
+<data name="ControllerPage_VirtualStatusDesc" xml:space="preserve">
+    <value>Változtassa meg a virtuális vezérlő állapotát</value>
+</data>
+<data name="ControllerPage_VirtualType" xml:space="preserve">
+    <value>Vezérlő típusa</value>
+</data>
+<data name="ControllerPage_VirtualTypeDesc" xml:space="preserve">
+    <value>Változtassa meg a virtuális vezérlő típusát</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerAutoSleepTime" xml:space="preserve">
+    <value>Automatikus Alvás Idő</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerJoystickDeadzone" xml:space="preserve">
+    <value>Joystick Holtzóna</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerLeft" xml:space="preserve">
+    <value>Bal Legion vezérlő</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerLeftDesc" xml:space="preserve">
+    <value>Beállítások megváltoztatása a bal Legion vezérlőhöz</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerRight" xml:space="preserve">
+    <value>Jobb Legion vezérlő</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerRightDesc" xml:space="preserve">
+    <value>Beállítások megváltoztatása a jobb Legion vezérlőhöz</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerTriggerDeadzone" xml:space="preserve">
+    <value>Kapcsoló Holtzóna</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerTriggerMargin" xml:space="preserve">
+    <value>Kapcsoló Margó</value>
+</data>
+<data name="DevicePage_Lenovo_Settings" xml:space="preserve">
+    <value>Lenovo Legion Go beállítások</value>
+</data>
+<data name="AboutPage_UnsupportedDevice" xml:space="preserve">
+    <value>Hoppá, úgy tűnik, hogy az eszköze még nem támogatott. Az alkalmazás esetleg nem fog úgy működni, ahogy azt várja.</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.RightPadClick" xml:space="preserve">
+    <value>Dupla koppintás</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.RightPadClickDown" xml:space="preserve">
+    <value>Tartás</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.RightPadTouch" xml:space="preserve">
+    <value>Érintés</value>
+</data>
+<data name="Enum.Input.LocalSpace" xml:space="preserve">
+    <value>Helyi tér</value>
+</data>
+<data name="Enum.MotionInput.LocalSpace" xml:space="preserve">
+    <value>Helyi tér</value>
+</data>
+<data name="Enum.MotionInput.LocalSpace.Desc" xml:space="preserve">
+    <value>A bemenet a vezérlő orientációján alapul, függetlenül a játék világától vagy karakterétől.</value>
+</data>
+<data name="SettingsPage_SensorCalibration" xml:space="preserve">
+    <value>Szenzor kalibrálás</value>
+</data>
+<data name="SettingsPage_SensorCalibrationDesc" xml:space="preserve">
+    <value>Kalibrálja az eszköz IMU szenzorát</value>
+</data>
+<data name="OverlayPage_DualShock4Controller" xml:space="preserve">
+    <value>DualShock 4</value>
+</data>
+<data name="OverlayPage_SteamDeck" xml:space="preserve">
+    <value>Steam Deck</value>
+</data>
+<data name="OverlayPage_Xbox360Controller" xml:space="preserve">
+    <value>Xbox 360</value>
+</data>
+<data name="ProfilesPage_RollYawAuto" xml:space="preserve">
+    <value>Automatikus</value>
+</data>
+<data name="Hint_MSIClawCenterCheck" xml:space="preserve">
+    <value>Az MSI Center fut</value>
+</data>
+<data name="Hint_MSIClawCenterCheckAction" xml:space="preserve">
+    <value>A MSI Center letiltása</value>
+</data>
+<data name="Hint_MSIClawCenterCheckDesc" xml:space="preserve">
+    <value>A MSI Center fut az eszközén. Ez befolyásolhatja az alkalmazást</value>
+</data>
+<data name="Hint_MSIClawCenterCheckReadme" xml:space="preserve">
+    <value>Kapcsolja ki az MSI Center-t, hogy az alkalmazás zökkenőmentesen fusson és konfliktusok nélkül</value>
+</data>
+<data name="PowerProfileMSIClawBestPerformance" xml:space="preserve">
+    <value>Extrém Teljesítmény</value>
+</data>
+<data name="PowerProfileMSIClawBestPerformanceDesc" xml:space="preserve">
+    <value>A legjobb rendszer teljesítmény többfeladatos működéshez és nagy terheléshez.</value>
+</data>
+<data name="PowerProfileMSIClawBetterBattery" xml:space="preserve">
+    <value>Nagyon Nagy Akkumulátor</value>
+</data>
+<data name="PowerProfileMSIClawBetterBatteryDesc" xml:space="preserve">
+    <value>A leghosszabb lehetséges akkumulátor élettartam.</value>
+</data>
+<data name="PowerProfileMSIClawBetterPerformance" xml:space="preserve">
+    <value>Kiegyensúlyozott</value>
+</data>
+<data name="PowerProfileMSIClawBetterPerformanceDesc" xml:space="preserve">
+    <value>A legjobb rendszerbeállítások, amelyeket az MSI javasol.</value>
+</data>
+<data name="DevicePage_LegionBatteryChargeLimit" xml:space="preserve">
+    <value>80% Akkumulátor Töltési Korlát</value>
+</data>
+<data name="DevicePage_LegionBatteryChargeLimit_Desc" xml:space="preserve">
+    <value>Beállítja az akkumulátor maximális töltési szintjét 80%-ra</value>
+</data>
+<data name="InputsHotkey_nextSubProfileDesc" xml:space="preserve">
+    <value>A következő alprofil alkalmazása az aktuális játékhoz</value>
+</data>
+<data name="InputsHotkey_previousSubProfile" xml:space="preserve">
+    <value>Előző alprofil kiválasztása</value>
+</data>
+<data name="InputsHotkey_previousSubProfileDesc" xml:space="preserve">
+    <value>Az előző alprofil alkalmazása az aktuális játékhoz</value>
+</data>
+<data name="DevicePage_FullFanSpeedDesc" xml:space="preserve">
+    <value>Állítsa be a ventilátort maximális sebességre</value>
+</data>
+<data name="DevicePage_FullFanSpeedText" xml:space="preserve">
+    <value>Ventilátor maximális sebesség felülbírálás</value>
+</data>
+<data name="Hint_AMD_IntegerScalingCheck" xml:space="preserve">
+    <value>Az egész számú nagyítás nem elérhető</value>
+</data>
+<data name="Hint_AMD_IntegerScalingCheckAction" xml:space="preserve">
+    <value>Egész számú nagyítás telepítése</value>
+</data>
+<data name="Hint_AMD_IntegerScalingCheckDesc" xml:space="preserve">
+    <value>Az egész számú nagyítás funkció nincs telepítve, ezért nem lehet engedélyezni vagy letiltani</value>
+</data>
+<data name="Hint_AMD_IntegerScalingCheckReadme" xml:space="preserve">
+    <value>Néhány parancsot ki kell hajtanunk az egész számú nagyítás telepítéséhez a rendszerén</value>
+</data>
+<data name="QuickOverlayPage_Desc" xml:space="preserve">
+    <value>Kezelje a képernyőre kivetített átfedést</value>
+</data>
+<data name="QuickOverlayPage_Title" xml:space="preserve">
+    <value>Átfedés</value>
+</data>
+<data name="ProfilesPage_DefaultDeviceProfile" xml:space="preserve">
+    <value>Ez egy alapértelmezett eszközprofil, amelyet nem lehet szerkeszteni. Ezek összehasonlíthatók az eszköz eredeti szoftveré által nyújtott profilokkal.</value>
+</data>
+<data name="PowerProfileLegionGoBetterBattery" xml:space="preserve">
+    <value>Hatékonyság</value>
+</data>
+<data name="PowerProfileLegionGoBetterBatteryDesc" xml:space="preserve">
+    <value>Beállítás hasonló az Hatékonyság üzemmódhoz az LS-ben. TDP korlát: 8W</value>
+</data>
+<data name="PowerProfileLegionGoBetterPerformance" xml:space="preserve">
+    <value>Kiegyensúlyozott</value>
+</data>
+<data name="PowerProfileLegionGoBetterPerformanceDesc" xml:space="preserve">
+    <value>Beállítás hasonló a Kiegyensúlyozott üzemmódhoz az LS-ben. TDP korlát: 15W</value>
+</data>
+<data name="PowerProfileLegionGoBestPerformance" xml:space="preserve">
+    <value>Teljesítmény</value>
+</data>
+<data name="PowerProfileLegionGoBestPerformanceDesc" xml:space="preserve">
+    <value>Beállítás hasonló a Teljesítmény üzemmódhoz az LS-ben. TDP korlát: 20W</value>
+</data>
+<data name="ProfilesPage_DefaultProfile" xml:space="preserve">
+    <value>Ez az alapértelmezett beállítás, a ventilátorsebesség görbéje nem módosítható ebben a beállításban.</value>
+</data>
+<data name="Hint_LegionGoServices" xml:space="preserve">
+    <value>A Legion Space feladatok és szolgáltatások aktívak</value>
+</data>
+<data name="Hint_LegionGoServicesAction" xml:space="preserve">
+    <value>Legion Space kikapcsolása</value>
+</data>
+<data name="Hint_LegionGoServicesDesc" xml:space="preserve">
+    <value>A Legion Space feladatok és szolgáltatások már aktívak az eszközén. Ez problémákat okozhat az alkalmazás használatakor.</value>
+</data>
+<data name="Hint_LegionGoServicesReadme" xml:space="preserve">
+    <value>Kapcsolja ki a Legion Space feladatokat és szolgáltatásokat, hogy az alkalmazás zökkenőmentesen fusson és konfliktusok nélkül</value>
+</data>
+<data name="DevicePage_UseSecondColor" xml:space="preserve">
+    <value>Használja a második színt</value>
+</data>
+<data name="ProfilesPage_GraphicsSettings" xml:space="preserve">
+    <value>Grafikai beállítások</value>
+</data>
+<data name="ProfilesPage_GraphicsSettingsDesc" xml:space="preserve">
+    <value>Változtassa meg a grafikai beállításokat</value>
+</data>
+<data name="PowerProfilesPage_PresetSelection" xml:space="preserve">
+    <value>Beállítások kiválasztása</value>
+</data>
+<data name="PowerProfilesPage_PresetSelectionDesc" xml:space="preserve">
+    <value>Válassza ki azon beállításokat, amelyeket szeretne módosítani</value>
+</data>
+<data name="PowerProfilesPage_DevicePresets" xml:space="preserve">
+    <value>Eszközbeállítások</value>
+</data>
+<data name="PowerProfilesPage_UserPresets" xml:space="preserve">
+    <value>Felhasználói beállítások</value>
+</data>
+<data name="ProfilesPage_PowerSettings" xml:space="preserve">
+    <value>Áramellátási beállítások</value>
+</data>
+<data name="QuickSettingsPage_ResolutionOverrideWarning" xml:space="preserve">
+    <value>A felbontást jelenleg profil felülírja</value>
+</data>
+<data name="SettingsPage_QuickToolsWindowLocationLeft" xml:space="preserve">
+    <value>Bal</value>
+</data>
+<data name="SettingsPage_QuickToolsWindowLocationRight" xml:space="preserve">
+    <value>Jobb</value>
+</data>
+<data name="InputsHotkey_OnScreenDisplayToggle" xml:space="preserve">
+    <value>Képernyőn átfedés</value>
+</data>
+<data name="InputsHotkey_OnScreenDisplayToggleDesc" xml:space="preserve">
+    <value>Képernyőn átfedés be-/kikapcsolása</value>
+</data>
+<data name="ProfilesPage_GPUScaling" xml:space="preserve">
+    <value>GPU nagyítás</value>
+</data>
+<data name="ProfilesPage_GPUScalingDesc" xml:space="preserve">
+    <value>A GPU nagyítja fel az alsó felbontásokat, hogy illeszkedjenek a kijelzőhöz</value>
+</data>
+<data name="ProfilesPage_ImageSharpening" xml:space="preserve">
+    <value>Képélesítés</value>
+</data>
+<data name="ProfilesPage_ImageSharpeningDesc" xml:space="preserve">
+    <value>Növeli a vizuális részleteket</value>
+</data>
+<data name="ProfilesPage_IS" xml:space="preserve">
+    <value>Egész számú nagyítás</value>
+</data>
+<data name="ProfilesPage_ISDesc" xml:space="preserve">
+    <value>A felbontás nagyítása úgy, hogy minden pixelt egy egész számmal szorozunk</value>
+</data>
+<data name="ProfilesPage_ResolutionScale" xml:space="preserve">
+    <value>Felbontás méretezése</value>
+</data>
+<data name="ProfilesPage_ResolutionScaleDesc" xml:space="preserve">
+    <value>A felbontás mérete, amelyre az egész számú nagyítás vonatkozik</value>
+</data>
+<data name="ProfilesPage_RSR" xml:space="preserve">
+    <value>Radeon Super Resolution</value>
+</data>
+<data name="ProfilesPage_RSRDesc" xml:space="preserve">
+    <value>Driverben alapuló nagyítási funkció gyorsabb képkockasebesség érdekében</value>
+</data>
+<data name="ProfilesPage_ScalingMode" xml:space="preserve">
+    <value>Méretezési mód</value>
+</data>
+<data name="ProfilesPage_ScalingModeDesc" xml:space="preserve">
+    <value>Válassza ki a képek nyújtásához és pozícionálásához használt módszert a kijelzőhöz való illeszkedéshez</value>
+</data>
+<data name="ProfilesPage_ScalingMode_Center" xml:space="preserve">
+    <value>Középre</value>
+</data>
+<data name="ProfilesPage_ScalingMode_FullPanel" xml:space="preserve">
+    <value>Teljes panel</value>
+</data>
+<data name="ProfilesPage_ScalingMode_PreserveAspectRatio" xml:space="preserve">
+    <value>Arány megtartása</value>
+</data>
+<data name="ProfilesPage_Sharpen" xml:space="preserve">
+    <value>Élesítés hatása</value>
+</data>
+<data name="QuickSettingsPage_ResScaleExclusiveFullscreen" xml:space="preserve">
+    <value>A 1/1 csak Kizárólagos Teljes képernyőt támogatja.</value>
+</data>
+<data name="SettingsPage_UISounds" xml:space="preserve">
+    <value>UI hangok engedélyezése</value>
+</data>
+<data name="SettingsPage_UISoundsDesc" xml:space="preserve">
+    <value>Engedélyezze vagy tiltsa le a UI hangokat a navigáció során</value>
+</data>
+<data name="ProfilesPage_ResolutionScaleType" xml:space="preserve">
+    <value>Nagyítási típus</value>
+</data>
+<data name="ProfilesPage_ResolutionScaleTypeDesc" xml:space="preserve">
+    <value>Válassza ki a nagyítási típust az arány alkalmazásához</value>
+</data>
+<data name="ProfilesPage_ResolutionScaleTypeInteger" xml:space="preserve">
+    <value>Egész számú nagyítás</value>
+</data>
+<data name="ProfilesPage_ResolutionScaleTypeNearest" xml:space="preserve">
+    <value>Legközelebbi szomszéd</value>
+</data>
+<data name="ControllerPage_PhysicalDevicesDesc" xml:space="preserve">
+    <value>csatlakoztatva a számítógéphez</value>
+</data>
+<data name="ControllerPage_VirtualDevices" xml:space="preserve">
+    <value>Virtuális vezérlő</value>
+</data>
+<data name="ControllerPage_VirtualDevicesDesc" xml:space="preserve">
+    <value>az, amit a számítógép használ</value>
+</data>
+<data name="ControllerPage_VirtualStatus" xml:space="preserve">
+    <value>Vezérlő állapota</value>
+</data>
+<data name="ControllerPage_VirtualStatusDesc" xml:space="preserve">
+    <value>Változtassa meg a virtuális vezérlő állapotát</value>
+</data>
+<data name="ControllerPage_VirtualType" xml:space="preserve">
+    <value>Vezérlő típusa</value>
+</data>
+<data name="ControllerPage_VirtualTypeDesc" xml:space="preserve">
+    <value>Változtassa meg a virtuális vezérlő típusát</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerAutoSleepTime" xml:space="preserve">
+    <value>Automatikus Alvás Idő</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerJoystickDeadzone" xml:space="preserve">
+    <value>Joystick Holtzóna</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerLeft" xml:space="preserve">
+    <value>Bal Legion vezérlő</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerLeftDesc" xml:space="preserve">
+    <value>Beállítások megváltoztatása a bal Legion vezérlőhöz</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerRight" xml:space="preserve">
+    <value>Jobb Legion vezérlő</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerRightDesc" xml:space="preserve">
+    <value>Beállítások megváltoztatása a jobb Legion vezérlőhöz</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerTriggerDeadzone" xml:space="preserve">
+    <value>Kapcsoló Holtzóna</value>
+</data>
+<data name="DevicePage_Lenovo_ControllerTriggerMargin" xml:space="preserve">
+    <value>Kapcsoló Margó</value>
+</data>
+<data name="DevicePage_Lenovo_Settings" xml:space="preserve">
+    <value>Lenovo Legion Go beállítások</value>
+</data>
+<data name="AboutPage_UnsupportedDevice" xml:space="preserve">
+    <value>Hoppá, úgy tűnik, hogy az eszköze még nem támogatott. Az alkalmazás esetleg nem fog úgy működni, ahogy azt várja.</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.RightPadClick" xml:space="preserve">
+    <value>Dupla koppintás</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.RightPadClickDown" xml:space="preserve">
+    <value>Tartás</value>
+</data>
+<data name="Enum.LegionController.ButtonFlags.RightPadTouch" xml:space="preserve">
+    <value>Érintés</value>
+</data>
+<data name="Enum.Input.LocalSpace" xml:space="preserve">
+    <value>Helyi tér</value>
+</data>
+<data name="Enum.MotionInput.LocalSpace" xml:space="preserve">
+    <value>Helyi tér</value>
+</data>
+<data name="Enum.MotionInput.LocalSpace.Desc" xml:space="preserve">
+    <value>A bemenet a vezérlő orientációján alapul, függetlenül a játék világától vagy karakterétől.</value>
+</data>
+<data name="SettingsPage_SensorCalibration" xml:space="preserve">
+    <value>Szenzor kalibrálás</value>
+</data>
+<data name="SettingsPage_SensorCalibrationDesc" xml:space="preserve">
+    <value>Kalibrálja az eszköz IMU szenzorát</value>
+</data>
+<data name="OverlayPage_DualShock4Controller" xml:space="preserve">
+    <value>DualShock 4</value>
+</data>
+<data name="OverlayPage_SteamDeck" xml:space="preserve">
+    <value>Steam Deck</value>
+</data>
+<data name="OverlayPage_Xbox360Controller" xml:space="preserve">
+    <value>Xbox 360</value>
+</data>
+<data name="ProfilesPage_RollYawAuto" xml:space="preserve">
+    <value>Automatikus</value>
+</data>
+<data name="Hint_MSIClawCenterCheck" xml:space="preserve">
+    <value>Az MSI Center fut</value>
+</data>
+<data name="Hint_MSIClawCenterCheckAction" xml:space="preserve">
+    <value>A MSI Center letiltása</value>
+</data>
+<data name="Hint_MSIClawCenterCheckDesc" xml:space="preserve">
+    <value>A MSI Center fut az eszközén. Ez befolyásolhatja az alkalmazást</value>
+</data>
+<data name="Hint_MSIClawCenterCheckReadme" xml:space="preserve">
+    <value>Kapcsolja ki az MSI Center-t, hogy az alkalmazás zökkenőmentesen fusson és konfliktusok nélkül</value>
+</data>
+<data name="PowerProfileMSIClawBestPerformance" xml:space="preserve">
+    <value>Extrém Teljesítmény</value>
+</data>
+<data name="PowerProfileMSIClawBestPerformanceDesc" xml:space="preserve">
+    <value>A legjobb rendszer teljesítmény többfeladatos működéshez és nagy terheléshez.</value>
+</data>
+<data name="PowerProfileMSIClawBetterBattery" xml:space="preserve">
+    <value>Nagyon Nagy Akkumulátor</value>
+</data>
+<data name="PowerProfileMSIClawBetterBatteryDesc" xml:space="preserve">
+    <value>A leghosszabb lehetséges akkumulátor élettartam.</value>
+</data>
+<data name="PowerProfileMSIClawBetterPerformance" xml:space="preserve">
+    <value>Kiegyensúlyozott</value>
+</data>
+<data name="PowerProfileMSIClawBetterPerformanceDesc" xml:space="preserve">
+    <value>A legjobb rendszerbeállítások, amelyeket az MSI javasol.</value>
+</data>
+<data name="DevicePage_LegionBatteryChargeLimit" xml:space="preserve">
+    <value>80% Akkumulátor Töltési Korlát</value>
+</data>
+<data name="DevicePage_LegionBatteryChargeLimit_Desc" xml:space="preserve">
+    <value>Beállítja az akkumulátor maximális töltési szintjét 80%-ra</value>
+</data>
+</root>
